@@ -5,9 +5,9 @@ const AndysDogTag = () => {
   return (
 <div>
     <div className='DavesPhoneNumberWrapper relative justify-center content-center mx-auto
-     w-fit  mt-[1.25rem] md:mt-[0rem] mb-4
+     w-fit  mt-[1.25rem] md:mt-[0 rem] mb-4
       z-10 
-       '>
+       '>    
 
       <h2 className='DavesName whitespace-nowrap mb-[-.45rem]'>Andy B. Bones</h2>
         <p className='USMCveteran whitespace-nowrap my-[-.45rem]'>USMC Veteran <span className='tagHole '></span> </p>
