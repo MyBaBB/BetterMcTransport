@@ -55,7 +55,7 @@ Error generating stack: `+i.message+`
 \r
             text-[8px] sm:text-[10px] md:text-[12px] lg:text-[14px] xl:text-[16px]}\r
              `,children:a.jsxs("p",{children:["Military ",a.jsx("br",{})," Discounts ",a.jsx("br",{})," Available"]})})]})]})})}),Qd=()=>a.jsx("div",{children:a.jsxs("div",{className:`DavesPhoneNumberWrapper relative justify-center content-center mx-auto\r
-     w-fit  mt-[1.25rem] md:mt-[-1.5rem] mb-4\r
+     w-fit  mt-[1.25rem] md:mt-[0rem] mb-4\r
       z-10 \r
        `,children:[a.jsx("h2",{className:"DavesName whitespace-nowrap mb-[-.45rem]",children:"Andy B. Bones"}),a.jsxs("p",{className:"USMCveteran whitespace-nowrap my-[-.45rem]",children:["USMC Veteran ",a.jsx("span",{className:"tagHole "})," "]}),a.jsx("p",{className:"DavesPhoneNumber whitespace-nowrap ",children:"555-555-5555"})]})}),Kd=()=>a.jsx("div",{children:a.jsx(a.Fragment,{children:a.jsxs("div",{className:`GoButtonsWrapper relative flex justify-center p-4 w-full h-fit  z-[3]\r
    top-[4rem] xxs:top-[4.9rem] xs:top-[5.95rem] sm:top-[6.5rem]  md:top-[7.5rem] lg:top-[8.15rem] xl:top-[9rem]\r
