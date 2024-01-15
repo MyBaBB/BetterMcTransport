@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
 // eslint-disable-next-line no-unused-vars
- import AndysBlankVan2 from "../assets/Img/AndysBlankVan2.webp"
+ import AndysTruck from "../assets/Img/AndysTruck.webp"
  import VeteranLogo from "../assets/Img/VeteranLogo.webp"
 
  
@@ -33,7 +33,7 @@ const Instagram = () => {
       <div className='WhiteFlagDiv relative flex justify-center items-center m-auto'
           style={{ height: '33.33%', backgroundColor: 'white' }}>
         <div className='relative block'> 
-                <img src={AndysBlankVan2} alt="DavesBlankVan2" className=' scale-[120%] pl-[5rem] rotate-[5deg]
+                <img src={AndysTruck} alt="DavesBlankVan2" className='left-4 scale-[130%] pl-[5rem] rotate-[-5deg]
                 mb-[-1rem] xs:mb-[-1.55rem] sm:mb-[-1.55rem] md:mb-[-2.2rem] lg:mb-[-2.2rem] lg:mb-[-2rem] 
                 mt-[-.7rem] xxs:mt-[-.75rem] xs:mt-[-.75rem] sm:mt-[-1.3rem] md:mt-[-1.55rem] lg:mt-[-1.55rem] xl:mt-[-1.7rem]'
                   /> 
