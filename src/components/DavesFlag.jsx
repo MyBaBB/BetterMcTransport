@@ -17,7 +17,7 @@ const Instagram = () => {
           top-[6rem] md:top-[6rem] lg:top-[7.75rem] xl:top-[8.75rem] "
           style={{ aspectRatio: '1.75/1' }}  >
             
-          <article className='RedFlagDiv rounded-xl m-auto'
+          <article className='RedFlagDiv rounded-t-xl m-auto'
            style={{ height: '33.33%', backgroundImage: 'linear-gradient(to bottom, rgba(250, 0, 0, 1) 90% , rgba(250, 250, 250, .9))', }} >
 
            <h2 className='RedTopWords
