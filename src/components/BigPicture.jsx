@@ -9,7 +9,7 @@ const BigPicture = () => {
            
    
    <div className='relative flex justify-center content-center mx-auto 
-      mt-[-1.75rem] lg:mt-[0] '> 
+      mt-[-1.75rem] lg:mt-[0rem] '> 
      { <div id='BigPicture' className='relative scroll-mt-[-4rem]'>
          {/* Several images in one Hidden for large screens. */}
 

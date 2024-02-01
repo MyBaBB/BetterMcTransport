@@ -13,7 +13,8 @@ const Instagram = () => {
       <>
      
         <div
-          className="DavesNewCard border-[3px] border-red-950 rounded-2xl relative flex-row justify-center m-auto 
+          className="DavesNewCard border-[3px] border-red-950 rounded-2xl relative flex-row justify-center m-auto
+          w-fit 
           top-[6rem] md:top-[6rem] lg:top-[7.75rem] xl:top-[8.75rem] "
           style={{ aspectRatio: '1.75/1' }}  >
             
@@ -50,7 +51,7 @@ const Instagram = () => {
                    
               <img src={VeteranLogo} alt="VeteranLogo" className='relative inline-block' />
            
-            <div className='BlueBottomWords pt-4' >
+            <div className='BlueBottomWords pt-4 ' >
               <h2 className='
                  mt-[-.1rem] xxs:mt-[0rem] xs:mt-[0rem] sm:mt-[.25rem] md:mt-[.5rem] lg:mt-[.5rem] xl:mt-[.5rem ]
                  text-[8px] xxs:text-[12px] xs:text-[20px] sm:text-[24px] md:text-[30px] lg:text-[30px] xl:text-[37px]
