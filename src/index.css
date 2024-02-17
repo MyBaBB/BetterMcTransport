@@ -2,12 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-
-
 :root {
-  font-family:  Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
   min-width: 200px;
@@ -18,7 +14,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-
 body {
   position: relative;
 
@@ -26,114 +21,110 @@ body {
   display: flex;
   min-width: 200px;
   min-height: 100vh;
-  padding:2px;
-  background-color: #C7B090;
+  padding: 2px;
+  background-color: #c7b090;
 }
-   .GoButtons {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid #725432 ;
-    border-radius: 9px;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.8);
-    background: linear-gradient(to bottom, #4b5320, black);
-    padding: 6px;
-    font-family: black_ops_one;
-    color:rgba(255, 251, 235, 1);
-   }
-   .WheresAndy {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid #725432 ;
-    border-radius: 9px;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.8);
-    background: linear-gradient(to bottom, #4b5320, black);
-    padding: 6px;
-    font-family: black_ops_one;
-    color:rgb(0, 136, 255);
-    
-
-
-   }
-   @media (min-width: 260px) {
-    .GoButtons {
-     width: 3rem;
-     margin-inline:0px;
-     
-     } }
-   @media (min-width: 320px) {
-    .GoButtons {
-      width: 3.75rem;
-      margin-inline:5px
-     } }
-   @media (min-width: 420px) {
-    .GoButtons {
-      width: 5.5rem;
-      margin-inline:5px
-     } }
-   @media (min-width: 460px) {
-    .GoButtons {
-      width: 6rem;
-      margin-inline:6px
-     } }
-   @media (min-width: 685px) {
-    .GoButtons {
-      width: 7rem;
-      margin-inline:3px
-     } }
-   @media (min-width: 1024px) {
-    .GoButtons {
-      width: 9rem;
-      margin-inline:13px
-     } }
-   @media (min-width: 1280px) {
-    .GoButtons {
-      width: 10rem;
-      margin-inline:15px
-     } }
-
-   
-
-
-
-     
-  
-.bodyWrapper {
-  position:relative;
-  top:0;
-  left:0;
-  right:0;
-  bottom:0;
+.GoButtons {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #725432;
+  border-radius: 9px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+  background: linear-gradient(to bottom, #4b5320, black);
+  padding: 6px;
+  font-family: black_ops_one;
+  color: rgba(255, 251, 235, 1);
 }
-     
-.HeaderWrapper {
-    position:fixed;
-    top: 0;
-    left: 0;    
-    justify-content: center;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    margin: auto;
-    padding: 1rem;
-    padding-top: 2.5rem;
-    padding-bottom: 0rem;
-    
-    background-image: linear-gradient(to top right, black, #C7B090, #4b5320);
-    box-shadow: 2px 2px 5px black;
-    border-bottom:2px solid #4b5320;
-    border-bottom-left-radius: 12px;
-    border-bottom-right-radius: 12px;
-    z-index: 50;
-
+.WheresAndy {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #725432;
+  border-radius: 9px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+  background: linear-gradient(to bottom, #4b5320, black);
+  padding: 6px;
+  font-family: black_ops_one;
+  color: rgb(0, 136, 255);
+}
+@media (min-width: 260px) {
+  .GoButtons {
+    width: 3rem;
+    margin-inline: 0px;
   }
+}
+@media (min-width: 320px) {
+  .GoButtons {
+    width: 3.75rem;
+    margin-inline: 5px;
+  }
+}
+@media (min-width: 420px) {
+  .GoButtons {
+    width: 5.5rem;
+    margin-inline: 5px;
+  }
+}
+@media (min-width: 460px) {
+  .GoButtons {
+    width: 6rem;
+    margin-inline: 6px;
+  }
+}
+@media (min-width: 685px) {
+  .GoButtons {
+    width: 7rem;
+    margin-inline: 3px;
+  }
+}
+@media (min-width: 1024px) {
+  .GoButtons {
+    width: 9rem;
+    margin-inline: 13px;
+  }
+}
+@media (min-width: 1280px) {
+  .GoButtons {
+    width: 10rem;
+    margin-inline: 15px;
+  }
+}
 
-    .triangle {
+.bodyWrapper {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.HeaderWrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  margin: auto;
+  padding: 1rem;
+  padding-top: 2.5rem;
+  padding-bottom: 0rem;
+
+  background-image: linear-gradient(to top right, black, #c7b090, #4b5320);
+  box-shadow: 2px 2px 5px black;
+  border-bottom: 2px solid #4b5320;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  z-index: 50;
+}
+
+.triangle {
   position: relative;
   display: flex;
   left: 7.9px;
@@ -143,10 +134,10 @@ body {
   height: 9px;
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
-  border-top:.7px double #91785d;
+  border-top: 0.7px double #91785d;
 
   z-index: 2;
-} 
+}
 
 .triangle::before {
   content: "";
@@ -155,219 +146,211 @@ body {
   left: calc(50% - 5.5px);
   width: 11px;
   height: 11px;
-  background-color:#41301b;
+  background-color: #41301b;
   transform: rotate(45deg);
   z-index: 1;
   box-shadow: 1px 1px 1px 1px #41301b;
   border-right: 1.5px solid #91785d;
   border-bottom: 1.5px solid #91785d;
 }
- 
-.DaveTrimmHeading1{
+
+.DaveTrimmHeading1 {
   font-family: DM_Serif_Display;
   width: fit-content;
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   margin-top: 12px;
   margin-bottom: 12px;
   padding: 12px;
-  position:relative;
+  position: relative;
   justify-content: center;
   align-items: center;
-  z-index:50;
-  background-color:black;
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  border-radius: 10px;
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
-  text-decoration: underline;
-}
-.DaveTrimmHeading2{
-  font-family: DM_Serif_Display;
-  width: fit-content;
-  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
-  padding: 12px;
-  position:relative;
-  justify-content: center;
-  align-items: center;
-  z-index:50;
+  z-index: 50;
   background-color: black;
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   border-radius: 10px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-  ;
-  }
+  text-decoration: underline;
+}
+.DaveTrimmHeading2 {
+  font-family: DM_Serif_Display;
+  width: fit-content;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  padding: 12px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  z-index: 50;
+  background-color: black;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
 
-.UpperRightLogo{
+.UpperRightLogo {
   scale: 1.5;
 }
 
-.RotateWheelsWrapper{
-   
+.RotateWheelsWrapper {
   position: fixed;
   display: flex;
   width: 250px;
   background-color: transparent;
-  padding:.25rem;
+  padding: 0.25rem;
 }
 
- #RotateWheels {
-     position:relative;
- }
- 
- #RotateWheels2 {
-    position: absolute;
-    left: 42px;
-    top:45px;
- }
+#RotateWheels {
+  position: relative;
+}
 
+#RotateWheels2 {
+  position: absolute;
+  left: 42px;
+  top: 45px;
+}
 
-  /*  header above */
-  .TopIntro {
-    font-family: Libre_Baskerville;
-  }
+/*  header above */
+.TopIntro {
+  font-family: Libre_Baskerville;
+}
 
-  .Movers {
-    
-    border: 2px solid black;
-    border-radius: 20px;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.8);
-    z-index: 0;
-  }
-  .AboutUsParagraphAccordion2 {
-    font-family: Libre_Baskerville;
-    text-align: center;
-    padding: .5rem;
-    border: 2px solid #725432;
-    border-radius: 20px;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.8);
-    z-index: 0;
-  }
-  .OurPhotosAccordion1 {
-    font-family: Libre_Baskerville;
-    text-align: center;
-    padding: .5rem;
-    border: 3px solid #917657;
-    border-radius: 20px;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.8);
-    z-index: 0;
-  }
-  .Accordion03ReviewsWrapper {
-    font-family: Libre_Baskerville;
-    text-align: center;
-    padding-bottom: .2rem;
-    padding-top: .2rem;
-    border: 3px solid #917657;
-    border-radius: 20px;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.8);
-    z-index: 0;
-  }
-  .TopArticleWrapper{
-    font-family: Libre_Baskerville;
-    text-align: center;
-    padding: .5rem;
-    max-width: 795px;
-    border-radius: 20px;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.8);
-    z-index: 0;
-    
-  }
-  .AboutUsParagraphMdBlock {
-    font-family: Libre_Baskerville;
-    text-align: center;
-    padding-inline: 3rem;
-    margin-top:-2rem;
-    border-radius: 20px;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.8);
-    z-index: 0;
-  }
-     .WelcomeWrapper {
-      font-family: Libre_Baskerville;
-      text-align: center;
-      padding: .5rem;
-      max-width: 815px;
-      border-radius: 20px;
-      z-index: 0;
-     }
+.Movers {
+  border: 2px solid black;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+  z-index: 0;
+}
+.AboutUsParagraphAccordion2 {
+  font-family: Libre_Baskerville;
+  text-align: center;
+  padding: 0.5rem;
+  border: 2px solid #725432;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+  z-index: 0;
+}
+.OurPhotosAccordion1 {
+  font-family: Libre_Baskerville;
+  text-align: center;
+  padding: 0.5rem;
+  border: 3px solid #917657;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+  z-index: 0;
+}
+.Accordion03ReviewsWrapper {
+  font-family: Libre_Baskerville;
+  text-align: center;
+  padding-bottom: 0.2rem;
+  padding-top: 0.2rem;
+  border: 3px solid #917657;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+  z-index: 0;
+}
+.TopArticleWrapper {
+  font-family: Libre_Baskerville;
+  text-align: center;
+  padding: 0.5rem;
+  max-width: 795px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+  z-index: 0;
+}
+.AboutUsParagraphMdBlock {
+  font-family: Libre_Baskerville;
+  text-align: center;
+  padding-inline: 3rem;
+  margin-top: -2rem;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+  z-index: 0;
+}
+.WelcomeWrapper {
+  font-family: Libre_Baskerville;
+  text-align: center;
+  padding: 0.5rem;
+  max-width: 815px;
+  border-radius: 20px;
+  z-index: 0;
+}
 
-       /* reviews below */
-       .ReviewsPersonHorizontalRule{
-        border: 2px solid #725432;
-         width: 70%;
-         margin: auto;
-         margin-top: .5rem;
-         margin-bottom: .5rem; 
-        }
-        .ReviewsPersonStarRating {
-          border:2px solid #725432 ;
-          border-radius: 4px;
-          font-size: 1.5rem;
-          margin: auto;
-          margin-top: .5rem;
-          margin-bottom: .5rem;
-        }
-          .ReviewsPersonDate {
-            font-size: .755rem;
-            margin: auto;
-            margin-top: .5rem;
-            margin-bottom: .5rem;
-          }
-           .ReviewsPersonName {
-            padding-top: 3rem;
-            font-size: 1.75rem;
-            margin: auto;
-            margin-top: .5rem;
-            margin-bottom: .5rem;
-            text-decoration: underline;
-          }
+/* reviews below */
+.ReviewsPersonHorizontalRule {
+  border: 2px solid #725432;
+  width: 70%;
+  margin: auto;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.ReviewsPersonStarRating {
+  border: 2px solid #725432;
+  border-radius: 4px;
+  font-size: 1.5rem;
+  margin: auto;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.ReviewsPersonDate {
+  font-size: 0.755rem;
+  margin: auto;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.ReviewsPersonName {
+  padding-top: 3rem;
+  font-size: 1.75rem;
+  margin: auto;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  text-decoration: underline;
+}
 
-.DavesPhoneNumberWrapper{
+.DavesPhoneNumberWrapper {
   font-family: black_ops_one;
   font-size: 1.75rem;
   color: #3a3f18;
-  border:#3a3f18 2px solid;
+  border: #3a3f18 2px solid;
   border-radius: 20px;
   padding: 8px;
-  background: linear-gradient(to bottom, #C0C0C0, #a6a5a5);
-  box-shadow: 5px 3px 3px rgba(0,0,0,0.8);
+  background: linear-gradient(to bottom, #c0c0c0, #a6a5a5);
+  box-shadow: 5px 3px 3px rgba(0, 0, 0, 0.8);
   padding-inline: 1rem;
   text-shadow: 1px 1px 2px rgba(229, 225, 225, 0.8);
 }
-                              /* red */
-.DavesNewCard{
+/* red */
+.DavesNewCard {
   box-shadow: black 2px 2px 5px;
 }
-.RedTopWords{
-  padding:10px;
+.RedTopWords {
+  padding: 10px;
   font-family: libre_baskerville;
-  color: rgba(255, 251, 235,1);
+  color: rgba(255, 251, 235, 1);
   text-shadow: black 1px 1px 2px;
 }
-.VanWords{                  /* white */
-  position:relative;
-  color:black;
+.VanWords {
+  /* white */
+  position: relative;
+  color: black;
   margin-top: -10px;
-  font-family:Caprasimo;
+  font-family: Caprasimo;
   white-space: nowrap;
 }
-                                 /* blue */
+/* blue */
 
- .BlueBottomWords{
-
+.BlueBottomWords {
   text-shadow: black 1px 1px 2px;
-  font-family:libre_baskerville;
-  width:100%;
- }
+  font-family: libre_baskerville;
+  width: 100%;
+}
 
-
-
-
-.tagHole{
+.tagHole {
   position: absolute;
-  border:.25px solid #3a3f18;
+  border: 0.25px solid #3a3f18;
   width: 13px;
   height: 13px;
-  background-color:#C7B090;
+  background-color: #c7b090;
   z-index: 10;
   border-radius: 50%;
   top: 57px;
@@ -375,50 +358,50 @@ body {
   box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.8);
 }
 
+@media (orientation: landscape) and (max-width: 685px) {
+}
+.OurReelsBoxTruck,
+.OldPhoneImage,
+.Reels,
+.Yelp,
+.GooglePhotos,
+.FaceBook {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+}
 
- @media  (orientation: landscape)and (max-width: 685px) {
-  
-   }
-   .OurReelsBoxTruck, .OldPhoneImage,  .Reels, .Yelp, .GooglePhotos, .FaceBook  {          
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
-   }
-  
-
- 
-
- @font-face {
-  font-family:'Creepster';
-  src: url(../GoogleFonts/Creepster/Creepster-Regular.ttf)
- }
- @font-face {
-  font-family:'DM_Serif_Display';
-  src: url(../GoogleFonts/DM_Serif_Display/DMSerifDisplay-Regular.ttf)
- }
- @font-face {
-  font-family:'';
-  src: url(../GoogleFonts/Itim/Itim-Regular.ttf)
- }
- @font-face {
-  font-family:'Kranky';
-  src: url(../GoogleFonts/Kranky/Kranky-Regular.ttf)
- }
- @font-face {
-  font-family:'Libre_Baskerville';
-  src: url(../GoogleFonts/Libre_Baskerville/LibreBaskerville-Regular.ttf)
- }
- @font-face {
-  font-family:'PT_Serif';
-  src: url(../GoogleFonts/PT_Serif/PTSerif-Regular.ttf)
- }
- @font-face {
-  font-family:'Rye';
-  src: url(../GoogleFonts/Rye/Rye-Regular.ttf)
- }
 @font-face {
- font-family:'black_ops_one';
-  src: url(../GoogleFonts/Black_Ops_One/BlackOpsOne-Regular.ttf)
- }
+  font-family: "Creepster";
+  src: url(../GoogleFonts/Creepster/Creepster-Regular.ttf);
+}
 @font-face {
- font-family:'Caprasimo';
-  src: url(../GoogleFonts/Caprasimo/Caprasimo-Regular.ttf)
- }
+  font-family: "DM_Serif_Display";
+  src: url(../GoogleFonts/DM_Serif_Display/DMSerifDisplay-Regular.ttf);
+}
+@font-face {
+  font-family: "";
+  src: url(../GoogleFonts/Itim/Itim-Regular.ttf);
+}
+@font-face {
+  font-family: "Kranky";
+  src: url(../GoogleFonts/Kranky/Kranky-Regular.ttf);
+}
+@font-face {
+  font-family: "Libre_Baskerville";
+  src: url(../GoogleFonts/Libre_Baskerville/LibreBaskerville-Regular.ttf);
+}
+@font-face {
+  font-family: "PT_Serif";
+  src: url(../GoogleFonts/PT_Serif/PTSerif-Regular.ttf);
+}
+@font-face {
+  font-family: "Rye";
+  src: url(../GoogleFonts/Rye/Rye-Regular.ttf);
+}
+@font-face {
+  font-family: "black_ops_one";
+  src: url(../GoogleFonts/Black_Ops_One/BlackOpsOne-Regular.ttf);
+}
+@font-face {
+  font-family: "Caprasimo";
+  src: url(../GoogleFonts/Caprasimo/Caprasimo-Regular.ttf);
+}
