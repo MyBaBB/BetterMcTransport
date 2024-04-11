@@ -1,4 +1,4 @@
-# This is one of my  Website Temolates with AI images of a Man who delivers 4x4 equipment to the swamp
+# This is one of my  Website Templates with AI images of a Man who delivers 4x4 equipment to the swamp
 
 <!-- note to self run npm run deploy to launch to github pages -->
 

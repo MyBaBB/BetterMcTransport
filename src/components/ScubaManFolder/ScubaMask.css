@@ -1,0 +1,99 @@
+
+.dataToolTip3 {
+  top: -2px;
+}
+.dataToolTip3:hover::before,
+.dataToolTip3:hover::after {
+  --scale: 1;
+}
+.dataToolTip3::before {
+  content: "";
+  background: radial-gradient(black, #492407);
+  color: #dbeafe;
+  width: max-content;
+  position: absolute;
+  content: attr(data-tool-tip);
+
+ 
+  transform: translateX(-100%) scale(var(--scale));
+  transform-origin: top left;
+  transition: ease-in 0.25s;
+  bottom: -2.15rem;
+  background: radial-gradient(black, #492407);
+  border-radius: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  --scale: 0;
+  z-index: 3;
+  left: 10rem;
+}
+.dataToolTip3::after {
+  content: "";
+  top: 1.6rem;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  padding: 0.1em 0.1em 0.2em 0.1em;
+  left: 1rem;
+  transform: translateX(-35%) scale(var(--scale));
+  transform-origin: bottom center;
+  transition: 0.25s;
+
+  border: 15px solid transparent;
+  border-bottom: #492407 10px solid;
+
+  --scale: 0;
+  z-index: 1;
+}
+.scubaMan {
+  transform: scaleX(-1);
+}
+.dataToolTip13 {
+  top: -2px;
+}
+.dataToolTip13:hover::before,
+.dataToolTip13:hover::after {
+  --scale: 1;
+}
+.dataToolTip13::before {
+  content: "";
+  background: radial-gradient(black, #492407);
+  color: #dbeafe;
+  width: max-content;
+  position: absolute;
+  content: attr(data-tool-tip);
+  padding: 0.1em 0.1em 0.2em 0.1em;
+
+  transform: translateX(-100%) scale(var(--scale));
+  transform-origin: bottom left;
+  transition: ease-in 0.25s;
+  bottom: 3.75rem;
+  background: radial-gradient(black, #492407);
+  border-radius: 10px;
+
+  padding-left: 2rem;
+  padding-right: 2rem;
+  --scale: 0;
+  z-index: 3;
+  left: 9.5rem;
+}
+.dataToolTip13::after {
+  content: "";
+  top: -1.2rem;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  padding: 0.1em 0.1em 0.2em 0.1em;
+  left: 2.45rem;
+  transform: translateX(-85%) scale(var(--scale));
+  transform-origin: top center;
+  transition: 0.25s;
+
+  border: 15px solid transparent;
+  border-top: #492407 10px solid;
+  color: #fff9d7;
+  --scale: 0;
+  z-index: 1;
+}

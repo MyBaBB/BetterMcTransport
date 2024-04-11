@@ -10,9 +10,13 @@ import GoButtons from "./GoButtons.jsx";
 import WheresAndy from "./WheresAndy.jsx";
 import Accordion01Images from "./Accordion01Images.jsx";
 import Accordion03Reviews from "./Accordion03Reviews.jsx";
+import AquariumDataTip from "./AquariumFolder/AquariumDataTip.jsx";
+import ScubaMan from "./ScubaManFolder/ScubaMan.jsx";
+import ScubaMask from "./ScubaManFolder/ScubaMask.jsx";
 const MainHands = () => {
   return (
     <div>
+    
       <>
         <div className="bodyWrapper">
           <div className="HeaderWrapper">
@@ -73,8 +77,8 @@ const MainHands = () => {
 
             {/* Dave Icon */}
             <div
-              className="  UpperRightLogo right-rem > fixed
-           flex hidden  w-fit scale-[40%]  rounded-full bg-transparent
+              className="  UpperRightLogo right-1rem > fixed
+              w-fit scale-[40%]  rounded-full bg-transparent
 
                p-1 shadow-inner sm:right-[.25rem]
 
@@ -89,7 +93,7 @@ const MainHands = () => {
             {/* Mover Icon */}
           </div>
           {/*above is the HeaderWrapper */}
-
+          <ScubaMask />
           <GoButtons />
           <WheresAndy />
           <DavesFlag />
@@ -110,14 +114,17 @@ const MainHands = () => {
               ></p>
             </div>
           </div>
+          
           <BigPicture />
           <Accordion01Images />
           <Accordion03Reviews />
 
           <AndysDogTag />
+          <AquariumDataTip />
           <Copyright />
         </div>
       </>
+      <ScubaMan />
     </div>
   );
 };
