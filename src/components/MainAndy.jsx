@@ -16,7 +16,6 @@ import ScubaMask from "./ScubaManFolder/ScubaMask.jsx";
 const MainHands = () => {
   return (
     <div>
-    
       <>
         <div className="bodyWrapper">
           <div className="HeaderWrapper">
@@ -105,7 +104,7 @@ const MainHands = () => {
           >
             {/* TruckSmallScreen */}
             <div className="mb-3 flex content-center justify-center"></div>
-            <div className="AboutUsParagraphWrapper relative mx-auto flex hidden content-center   justify-center md:block">
+            <div className="AboutUsParagraphWrapper relative mx-auto flex  content-center   justify-center md:block">
               <p
                 id="AboutUsh2"
                 className="AboutUsh2 text-[1.45rem]
@@ -114,7 +113,7 @@ const MainHands = () => {
               ></p>
             </div>
           </div>
-          
+
           <BigPicture />
           <Accordion01Images />
           <Accordion03Reviews />

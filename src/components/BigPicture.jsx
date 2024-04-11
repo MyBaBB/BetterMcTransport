@@ -13,7 +13,7 @@ const BigPicture = () => {
 
               {
                 <div
-                  className="Movers relative mt-[8.5rem] flex hidden w-fit
+                  className="Movers relative mt-[8.5rem] flex  w-fit
         min-w-[240px] -scroll-mt-80 md:block "
                 >
                   <img

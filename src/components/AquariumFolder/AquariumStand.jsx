@@ -6,7 +6,7 @@ import Octopus from "./OctoPus22x80.png";
 import "./AquariumStand.css";
 const AquariumStand = () => {
   return (
-    <div className="OctopusHideLandscape  mb-[2.9rem]    flex-row items-center justify-center">
+    <div className="OctopusHideLandscape  mt-[2.9rem]    flex-row items-center justify-center">
       <div className="OctopusWrapper OctopusHideLandscape  relative m-auto flex  justify-center  ">
         <img src={Octopus} alt="Octopus" />
       </div>
@@ -25,7 +25,7 @@ const AquariumStand = () => {
             }}
           >
             <span
-              className="rightPointer absolute left-[22px] top-[115.5px]
+              className="rightPointer absolute left-[22px] top-[157.5px]
                                 rotate-[45deg] text-varLIGHTBLUEFEATHER"
             >
               <FaLink size={17} />
@@ -45,7 +45,7 @@ const AquariumStand = () => {
               </span>
             </h3>
             <span
-              className="rightPointer  absolute right-[22.5px] top-[115.5px]
+              className="rightPointer  absolute right-[22.5px] top-[157.5px]
                                 rotate-[45deg] text-varLIGHTBLUEFEATHER"
             >
               <FaLink size={17} />
