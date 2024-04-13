@@ -13,7 +13,7 @@ const ScubaMan = () => {
       >
         <a href="#">
           <div
-            className=" z-50 h-[fit] w-[fit] 
+            className="sm:hidden z-50 h-[fit] w-[fit] 
                                   rounded-xl border-[1px] border-varLIGHTBLUEFEATHER bg-gray-700 hover:bg-black "
           >
             <div className="scubaManThird  rounded-xl  border-[2px] border-black">
