@@ -39,7 +39,7 @@
   transform: translateX(-50%) scale(var(--scale));
   transform-origin: top center;
   transition: 0.25s;
-  bottom: 9.20rem;
+  bottom: 9.2rem;
   border: 15px solid transparent;
   border-top: lightblue 10px solid;
 

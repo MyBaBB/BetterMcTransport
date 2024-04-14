@@ -76,12 +76,12 @@ const MainHands = () => {
 
             {/* Dave Icon */}
             <div
-              className="  UpperRightLogo hidden md:block  right-1rem > fixed
-              w-fit scale-[40%]  rounded-full bg-transparent
+              className="  UpperRightLogo right-1rem >  fixed hidden w-fit
+              scale-[40%] rounded-full  bg-transparent p-1
 
-               p-1 shadow-inner sm:right-[.25rem]
+               shadow-inner sm:right-[.25rem] md:-top-[1rem]
 
-           md:-top-[1rem] md:right-[-.75rem]   md:scale-[45%]  lg:-top-[1rem]
+           md:right-[-.75rem] md:block   md:scale-[45%]  lg:-top-[1rem]
 
            lg:right-[1rem] lg:scale-[60%] xl:-top-[.25rem] xl:scale-[60%] "
             >
