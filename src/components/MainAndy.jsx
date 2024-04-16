@@ -11,11 +11,11 @@ import WheresAndy from "./WheresAndy.jsx";
 import Accordion01Images from "./Accordion01Images.jsx";
 import Accordion03Reviews from "./Accordion03Reviews.jsx";
 import AquariumDataTip from "./AquariumFolder/AquariumDataTip.jsx";
-import ScubaMan from "./ScubaManFolder/ScubaMan.jsx";
-import ScubaMask from "./ScubaManFolder/ScubaMask.jsx";
+// import ScubaMan from "./ScubaManFolder/ScubaMan.jsx";
+// import ScubaMask from "./ScubaManFolder/ScubaMask.jsx";
 const MainHands = () => {
   return (
-    <div className="relative flex  max-w-[90vw] justify-center m-auto items-center p-2  border-2 border-red-400">
+    <div className="relative flex  max-w-[90vw] justify-center m-auto items-center p-2 ">
       <>
         <div className="bodyWrapper  ">
           <div className="HeaderWrapper ">
@@ -92,7 +92,7 @@ const MainHands = () => {
             {/* Mover Icon */}
           </div>
           {/*above is the HeaderWrapper */}
-          <ScubaMask />
+          {/* <ScubaMask /> */}
           <GoButtons />
           <WheresAndy />
           <DavesFlag />
@@ -123,7 +123,7 @@ const MainHands = () => {
           <Copyright />
         </div>
       </>
-      <ScubaMan />
+      {/* <ScubaMan /> */}
     </div>
   );
 };
