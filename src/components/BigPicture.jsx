@@ -5,7 +5,7 @@ const BigPicture = () => {
       <>
         <div
           className="relative mx-auto mt-[-1.75rem] flex content-center 
-      justify-center lg:mt-[0rem] "
+      justify-center lg:mt-[0rem]  "
         >
           {
             <div id="BigPicture" className="relative scroll-mt-[-4rem]">

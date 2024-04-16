@@ -15,10 +15,10 @@ import ScubaMan from "./ScubaManFolder/ScubaMan.jsx";
 import ScubaMask from "./ScubaManFolder/ScubaMask.jsx";
 const MainHands = () => {
   return (
-    <div>
+    <div className="relative flex  max-w-[90vw] justify-center m-auto items-center p-2  border-2 border-red-400">
       <>
-        <div className="bodyWrapper">
-          <div className="HeaderWrapper">
+        <div className="bodyWrapper  ">
+          <div className="HeaderWrapper ">
             {/* the Animation */}
 
             <div

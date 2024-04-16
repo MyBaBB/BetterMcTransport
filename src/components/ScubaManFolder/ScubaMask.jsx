@@ -6,7 +6,7 @@ const ScubaMask = () => {
       {/* xxxxxxxxxxxxxxxxxxxxxxxxxx Scuba Mask to Bottom xxxxxxxxxxxxxxxxxxxxxxx */}
 
       <div
-        className="absolute -left-[11rem] top-[9.5rem]   text-varLIGHTBLUEFEATHER hover:text-varLIGHTWING
+        className="absolute -left-[6rem] top-[9.5rem]   text-varLIGHTBLUEFEATHER hover:text-varLIGHTWING
                   "
       >
         <div
