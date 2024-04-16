@@ -15,7 +15,7 @@ const ScubaMan = () => {
           <div
             className="z-50 hidden h-[fit] w-[fit] rounded-xl 
                        border-[1px] border-varLIGHTBLUEFEATHER bg-gray-700
-                             hover:bg-black sm:block "
+                       hover:bg-black sm:block "
           >
             <div className="scubaManThird  rounded-xl  border-[2px] border-black">
               <div className="scubaManSecond rounded-xl border-[1px] border-varLIGHTBLUEFEATHER p-2 ">
