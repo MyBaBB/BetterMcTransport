@@ -29,7 +29,7 @@ const Sidenav = () => {
           {
             /* The hidden Mobile Screen  */
             nav ? (
-              <div className="hiddenMobile fixed  bottom-0 left-0 right-0 top-0 z-20 flex h-full w-full flex-col items-center justify-center bg-white/90 py-4 ">
+              <div className="hiddenMobile fixed  bottom-0 left-0 right-0 top-8 z-20 flex h-full w-full flex-col items-center justify-center bg-white/90 py-4 ">
                 <a
                   onClick={handleNav}
                   href="#"
