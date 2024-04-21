@@ -11,7 +11,7 @@ const Instagram = () => {
         <div
           className="DavesNewCard relative top-[6rem] m-auto w-fit flex-row justify-center rounded-2xl
           border-[3px] 
-          border-red-950 md:top-[6rem] lg:top-[7.75rem] xl:top-[8.75rem] "
+          border-green-400 md:top-[6rem] lg:top-[7.75rem] xl:top-[8.75rem] "
           style={{ aspectRatio: "1.75/1" }}
         >
           <article
@@ -49,7 +49,7 @@ const Instagram = () => {
                   alt="DavesBlankVan2"
                   className=" mb-[-1rem] mt-[-.7rem] rotate-[-3deg]
                 scale-[130%] pl-[5rem] xxs:mt-[-.75rem] xs:mb-[-1.55rem] xs:mt-[-.75rem] sm:mb-[-1.55rem] 
-                sm:mt-[-1.3rem] md:mb-[-2.2rem] md:mt-[-1.55rem] lg:mb-[-2.2rem] lg:mb-[-2rem] lg:mt-[-1.55rem] xl:mt-[-1.7rem]"
+                sm:mt-[-1.3rem] md:mb-[-2.2rem] md:mt-[-1.55rem]   lg:mb-[-2rem] lg:mt-[-1.55rem] xl:mt-[-1.7rem]"
                 />
                 <div
                   className="VanWords
@@ -63,7 +63,7 @@ const Instagram = () => {
           </article>
 
           <article
-            className="BlueFlagDiv relative m-auto block flex   rounded-b-xl align-baseline"
+            className="BlueFlagDiv relative m-auto   flex   rounded-b-xl align-baseline"
             style={{
               height: "33.33%",
               backgroundImage:

@@ -1,0 +1,171 @@
+.headerWrapper {
+    position:relative;
+    
+    
+    justify-content:center;
+    align-items: center;
+    padding: .5rem 4rem 0.5rem 4rem;
+    background-image: linear-gradient(to top right, black, #c7b090, #4b5320);
+    box-shadow: 2px 2px 5px black;
+    border-bottom: 2px solid #4b5320;
+    z-index: 50;
+    
+  }
+  .headerCenterTextBox {
+    font-family: 'black ops one', sans-serif;
+    
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    margin:auto; 
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 12px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    
+    white-space: nowrap;
+  }
+  .outerOctoArmyWrapper {
+    position: absolute;
+    right: 4rem;
+    top: 1rem;
+    border:1px solid black;
+    border-radius: 50%;
+    box-shadow: 0px 0px 12px gray;
+    ;
+
+  }
+
+  .octoArmyWrapper {
+    position: relative;
+    display: flex;
+    box-shadow: 0px 0px 12px gray;
+    border-radius: 50%;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.8);
+    
+  }
+   .outerOctoArmyWrapper:hover {
+    box-shadow: 0px 0px 22px rgb(238, 238, 60);
+}
+
+   .outerSwampBuggyWrapper {
+    position: absolute;
+    box-shadow: 0px 0px 12px black;
+    border-radius: 50%;
+    left:4rem;
+    top: 1rem;
+}
+
+  .swampBuggyWrapper {
+    position: relative;
+    display: flex;
+    background-color:transparent;
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 12px rgba(0, 0, 0, 0.8);
+      }
+    .swampBuggyWrapper :hover {
+      background-image: linear-gradient(to top right, black, #c7b090, #4b5320);
+      border-radius: 50%;
+    }
+ 
+.dataToolTip82:hover::before,
+.dataToolTip82:hover::after {
+  --scale: 1;
+}
+.dataToolTip82::before {
+  content: attr(data-tool-tip);
+  background: radial-gradient(black, #492407);
+  font-family: 'black ops one', sans-serif;
+  color: rgb(6, 198, 6);
+  width: max-content;
+  position: absolute;
+  content: attr(data-tool-tip);
+  padding: 0.1em 0.1em 0.2em 0.1em;
+  transform: translateX(-50%) scale(var(--scale));
+  transform-origin: right;
+  transition: ease-in 0.25s;
+  top: 2.9rem;
+  right: 5.3rem;
+  border: 3px dashed green;
+  border-radius: 10px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  --scale: 0;
+  z-index: 3;
+}
+
+.dataToolTip82::after {
+  content: "";
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  padding: 0.1em 0.1em 0.1em 0.1em;
+  transform: translateX(-50%) scale(var(--scale));
+  transform-origin: left;
+  transition: 0.35s;
+  top: 2.75rem;
+  right: 7.45rem;
+  border: 15px solid transparent;
+  border-left: green 10px solid;
+  border-radius: 15px;
+  color: #492407;
+  --scale: 0;
+  z-index: 1;
+}
+
+.dataToolTip81:hover::before,
+.dataToolTip81:hover::after {
+  --scale: 1;
+}
+.dataToolTip81::before {
+  content: attr(data-tool-tip);
+  background: radial-gradient(black, #492407);
+  color: rgb(6, 198, 6);
+  width: max-content;
+  position: absolute;
+  font-family: 'black ops one', sans-serif;
+  content: attr(data-tool-tip);
+  padding: 0.1em 0.1em 0.2em 0.1em;
+  top: 2.95rem;
+  left: 17.85rem;
+  transform: translateX(-50%) scale(var(--scale));
+  transform-origin: left;
+  transition: ease-in 0.25s;
+  border-radius: 10px;
+  border: 3px dashed green;
+  
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  --scale: 0;
+  z-index: 3;
+}
+
+.dataToolTip81::after {
+  content: "";
+
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  padding: 0.1em 0.1em 0.1em 0.1em;
+  transform: translateX(-50%) scale(var(--scale));
+  transform-origin: right;
+  transition: 0.35s;
+  top: 2.9rem;
+  left: 8.85rem;
+  bottom: 0.8rem;
+  border: 15px solid transparent;
+  border-right: green 10px solid;
+  border-radius: 15px;
+
+  color: #492407;
+  --scale: 0;
+  z-index: 1;
+}

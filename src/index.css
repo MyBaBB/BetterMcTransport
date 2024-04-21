@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 :root {
+  font-size: 62.5%;
   font-family: Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -25,6 +26,7 @@ body {
   background-color: #c7b090;
 }
 .GoButtons {
+  
   position: relative;
   display: flex;
   justify-content: center;
@@ -36,6 +38,7 @@ body {
   padding: 6px;
   font-family: black_ops_one;
   color: rgba(255, 251, 235, 1);
+
 }
 .WheresAndy {
   position: relative;
@@ -93,36 +96,9 @@ body {
   }
 }
 
-.bodyWrapper {
-  position: relative;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
 
-.HeaderWrapper {
-  position: fixed;
-  top: 0;
-  left: 0;
-  justify-content: center;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-  margin: auto;
-  padding: 1rem;
-  padding-top: 2.5rem;
-  padding-bottom: 0rem;
 
-  background-image: linear-gradient(to top right, black, #c7b090, #4b5320);
-  box-shadow: 2px 2px 5px black;
-  border-bottom: 2px solid #4b5320;
-  border-bottom-left-radius: 12px;
-  border-bottom-right-radius: 12px;
-  z-index: 50;
-}
+
 
 .triangle {
   position: relative;
@@ -154,61 +130,15 @@ body {
   border-bottom: 1.5px solid #91785d;
 }
 
-.DaveTrimmHeading1 {
-  font-family: DM_Serif_Display;
-  width: fit-content;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-  margin-top: 12px;
-  margin-bottom: 12px;
-  padding: 12px;
-  position: relative;
-  justify-content: center;
-  align-items: center;
-  z-index: 50;
-  background-color: black;
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  border-radius: 10px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-  text-decoration: underline;
-}
-.DaveTrimmHeading2 {
-  font-family: DM_Serif_Display;
-  width: fit-content;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-  padding: 12px;
-  position: relative;
-  justify-content: center;
-  align-items: center;
-  z-index: 50;
-  background-color: black;
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  border-radius: 10px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-}
 
-.UpperRightLogo {
-  scale: 1.5;
-}
 
-.RotateWheelsWrapper {
-  position: fixed;
-  display: flex;
-  width: 250px;
-  background-color: transparent;
-  padding: 0.25rem;
-}
 
-#RotateWheels {
-  position: relative;
-}
 
-#RotateWheels2 {
-  position: absolute;
-  left: 42px;
-  top: 45px;
-}
+
+
+ 
+
+ 
 
 /*  header above */
 .TopIntro {
