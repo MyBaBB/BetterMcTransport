@@ -61,7 +61,7 @@ const Navbar = () => {
       </nav>
 
       <div className={menu_class}>
-        <section id="mobile-menu" className="relative m-auto flex  text-4xl">
+        <section id="mobile-menu" className=" relative m-auto flex  text-4xl">
           <div
             className=" font-Aclonica-Regular relative top-0 z-[1]  
               w-fit bg-[#584C3A]   px-[3rem] text-center"
@@ -80,9 +80,9 @@ const Navbar = () => {
                     className="animate-open-menu relative flex     origin-top rounded-3xl 
                                  border-2 border-gray-700   bg-gradient-to-b from-slate-100
                                  to-slate-500 py-1 text-center text-black
-                                 shadow-md shadow-varMEDBLUEFEATHER "
+                                 shadow-md shadow-yellow-950 "
                   >
-                    <div className="relative inline-block pl-4 "><BsPersonVcard /></div>
+                    <div className="relative  inline-block pl-4 "><BsPersonVcard /></div>
                     <span className="] m-auto ml-[2rem] pr-8 hover:text-varMEDBLUEFEATHER ">
                       My Landing Page
                     </span>
@@ -99,7 +99,7 @@ const Navbar = () => {
                     className="animate-open-menu relative flex     origin-top rounded-3xl 
                                  border-2 border-gray-700   bg-gradient-to-b from-slate-100
                                  to-slate-500 py-1 text-center text-black
-                                 shadow-md shadow-varMEDBLUEFEATHER  "
+                                 shadow-md shadow-yellow-950  "
                   >
                     <div className="relative inline-block pl-4 "><GiStrongMan /></div>
                     <span className="] m-auto  pr-6 hover:text-varMEDBLUEFEATHER ">
@@ -118,7 +118,7 @@ const Navbar = () => {
                     className="animate-open-menu relative flex     origin-top rounded-3xl 
                                  border-2 border-gray-700   bg-gradient-to-b from-slate-100
                                  to-slate-500 py-1 text-center text-black
-                                 shadow-md shadow-varMEDBLUEFEATHER  "
+                                 shadow-md shadow-yellow-950  "
                   >
                     <div className="relative inline-block pl-4 "><LiaInfoSolid /></div>
                     <span className="] m-auto ml-[6.5rem]  hover:text-varMEDBLUEFEATHER ">
@@ -137,7 +137,7 @@ const Navbar = () => {
                     className="animate-open-menu relative flex     origin-top rounded-3xl 
                                  border-2 border-gray-700   bg-gradient-to-b from-slate-100
                                  to-slate-500 py-1 text-center text-black
-                                 shadow-md shadow-varMEDBLUEFEATHER  "
+                                 shadow-md shadow-yellow-950  "
                   >
                     <div className="relative inline-block pl-4 pr-2 "><RiSeoLine /></div>
                     <span className="] m-auto  pr-6 hover:text-varMEDBLUEFEATHER ">
@@ -155,7 +155,7 @@ const Navbar = () => {
                     className="animate-open-menu relative flex     origin-top rounded-3xl 
                                  border-2 border-gray-700   bg-gradient-to-b from-slate-100
                                  to-slate-500 py-1 text-center text-black
-                                 shadow-md shadow-varMEDBLUEFEATHER  "
+                                 shadow-md shadow-yellow-950  "
                   >
                     <div className="relative inline-block pl-4 pr-2 "><SiQuicklook /></div>
                     <span className="] m-auto  pr-6 hover:text-varMEDBLUEFEATHER ">
@@ -169,7 +169,7 @@ const Navbar = () => {
                     className="animate-open-menu relative flex     origin-top rounded-3xl 
                                  border-2 border-gray-700   bg-gradient-to-b from-slate-100
                                   to-slate-500 py-1 text-center text-black
-                                  shadow-md shadow-varMEDBLUEFEATHER  "
+                                  shadow-md shadow-yellow-950  "
                   >
                     <div className="relative inline-block pl-4 pr-2"><LiaHourglassHalfSolid /></div>
                     <span className="] m-auto  pr-6 hover:text-varMEDBLUEFEATHER ">
@@ -185,7 +185,7 @@ const Navbar = () => {
                     className="animate-open-menu relative flex     origin-top rounded-3xl 
                                  border-2 border-gray-700   bg-gradient-to-b from-slate-100
                                   to-slate-500 py-1 text-center text-black
-                                  shadow-md shadow-varMEDBLUEFEATHER  "
+                                  shadow-md shadow-yellow-950  "
                   >
                     <div className="relative inline-block pl-4 "><SiTestinglibrary /></div>
                     <span className="] m-auto  pr-6 hover:text-varMEDBLUEFEATHER ">
