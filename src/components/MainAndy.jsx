@@ -2,19 +2,19 @@
 import React from "react";
 import Copyright from "./Copyright.jsx";
 // import UpperLeftIcon from "../assets/Img/upperLeftIcon.webp";
-import BigPicture from "./BigPicture.jsx";
+import BigPicture from "./BigPictureFolder/BigPicture.jsx";
 
-import AndysFlag from "./AndysCardFolder/AndysFlag.jsx";
+import AndysCard from "./AndysCardFolder/AndysCard.jsx";
 import AndysDogTag from "./AndysDogTag.jsx";
 import GoButtons from "./GoButtonsFolder/GoButtons.jsx";
- 
+
 import Accordion01Images from "./Accordion01Images.jsx";
 import Accordion03Reviews from "./Accordion03Reviews.jsx";
 import AquariumDataTip from "./AquariumFolder/AquariumDataTip.jsx";
 import Gorilla from "../Gorilla.jsx";
 // import ScubaMan from "./ScubaManFolder/ScubaMan.jsx";
 // import ScubaMask from "./ScubaManFolder/ScubaMask.jsx";
-const MainHands = () => {
+const AndysMain = () => {
   return (
     <div>
       <>
@@ -22,14 +22,14 @@ const MainHands = () => {
         {/* <ScubaMask /> */}
         <div
           className="bodyWrapper relative  flex min-w-full
-           items-center justify-center border-2 border-red-500  "
+           items-center justify-center   "
         >
           <div className="relative  w-fit flex-col items-center justify-center  ">
             <GoButtons />
-            <AndysFlag />
-            <Gorilla  />
+            <AndysCard />
+
             <div
-              className="Accordian2Wrapper relative mt-[.5rem] block border-2  border-red-500   px-[10px]
+              className="Accordian2Wrapper relative mt-[.5rem] block   px-[10px]
         text-green-50   sm:px-[.5rem] md:mt-[1rem]"
               style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 1)" }}
             >
@@ -60,4 +60,4 @@ const MainHands = () => {
   );
 };
 
-export default MainHands;
+export default AndysMain;

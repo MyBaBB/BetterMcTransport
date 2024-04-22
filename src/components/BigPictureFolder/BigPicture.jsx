@@ -1,20 +1,20 @@
-import Movers from "../assets/Img/Movers.webp";
+import Movers from "./Movers.jpg";
 const BigPicture = () => {
   return (
     <div>
       <>
         <div
-          className="relative mx-auto mt-[-1.75rem] flex content-center 
-      justify-center lg:mt-[0rem]  "
+          className="relative  mx-auto   flex content-center 
+      justify-center    "
         >
           {
-            <div id="BigPicture" className="relative scroll-mt-[-4rem]">
+            <div id="BigPicture" className="relative  ">
               {/* Several images in one Hidden for large screens. */}
 
               {
                 <div
-                  className="Movers relative mt-[8.5rem] flex  w-fit
-        min-w-[240px] -scroll-mt-80 md:block "
+                  className="Movers relative mt-4 flex  w-fit
+        min-w-[240px] md:block "
                 >
                   <img
                     src={Movers}

@@ -4,12 +4,12 @@ import React from "react";
 import AndysTruck from "./AndysTruck.webp";
 import VeteranLogo from "./VeteranLogo.webp";
 import "./AndysCard.css";
-const Instagram = () => {
+const AndysCard = () => {
   return (
     <div>
       <>
         <div
-          className="DavesNewCard relative mt-4  m-auto w-fit flex-row justify-center rounded-2xl
+          className="AndysNewCard  relative m-auto  mt-4 w-fit flex-row justify-center rounded-2xl
             "
           style={{ aspectRatio: "1.75/1" }}
         >
@@ -39,19 +39,19 @@ const Instagram = () => {
 
           <article>
             <div
-              className="WhiteFlagDiv relative m-auto flex items-center justify-center"
+              className="WhiteFlagDiv  relative m-auto flex items-center justify-center"
               style={{ height: "33.33%", backgroundColor: "white" }}
             >
-              <div className="relative block">
+              <div className="relative block ">
                 <img
                   src={AndysTruck}
-                  alt="DavesBlankVan2"
+                  alt="AndysBlankVan2"
                   className=" mb-[-1rem] mt-[-.7rem] rotate-[-3deg]
                 scale-[130%] pl-[5rem] xxs:mt-[-.75rem] xs:mb-[-1.55rem] xs:mt-[-.75rem] sm:mb-[-1.55rem] 
                 sm:mt-[-1.3rem] md:mb-[-2.2rem] md:mt-[-1.55rem]   lg:mb-[-2rem] lg:mt-[-1.55rem] xl:mt-[-1.7rem]"
                 />
                 <div
-                  className="VanWords
+                  className="VanWords 
                 text-[16px] xxs:text-[20px] xs:text-[30px] sm:text-[30px] md:text-[50px]  lg:text-[53px] xl:text-[58px]  
                 "
                 >
@@ -75,7 +75,7 @@ const Instagram = () => {
               className="relative inline-block"
             />
 
-            <div className="BlueBottomWords pt-4 ">
+            <div className="BlueBottomWords  pt-4 ">
               <h2
                 className="
                  xl:mt-[.5rem ] mt-[-.1rem] text-[8px] xxs:mt-[0rem] xxs:text-[12px] xs:mt-[0rem] xs:text-[20px]
@@ -94,7 +94,7 @@ const Instagram = () => {
               </h2>
             </div>
             <div
-              className="MilitaryDiscounts xl:text-[16px]} relative flex w-fit  items-center p-2
+              className="MilitaryDiscounts  xl:text-[16px]} relative flex w-fit  items-center p-2
             
 
             text-[8px] text-amber-100 sm:text-[10px] md:text-[12px] lg:text-[14px]
@@ -111,4 +111,4 @@ const Instagram = () => {
   );
 };
 
-export default Instagram;
+export default AndysCard;

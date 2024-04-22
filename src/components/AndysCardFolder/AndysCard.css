@@ -1,24 +1,24 @@
 .AndysNewCard {
-    box-shadow: black 2px 2px 5px;
-  }
-  .RedTopWords {
-    padding: 10px;
-    font-family: libre_baskerville;
-    color: rgba(255, 251, 235, 1);
-    text-shadow: black 1px 1px 2px;
-  }
-  .VanWords {
-    /* white */
-    position: relative;
-    color: black;
-    margin-top: -10px;
-    font-family: Caprasimo;
-    white-space: nowrap;
-  }
-  /* blue */
-  
-  .BlueBottomWords {
-    text-shadow: black 1px 1px 2px;
-    font-family: libre_baskerville;
-    width: 100%;
-  }
+  box-shadow: black 2px 2px 5px;
+}
+.RedTopWords {
+  padding: 10px;
+  font-family: libre_baskerville;
+  color: rgba(255, 251, 235, 1);
+  text-shadow: black 1px 1px 2px;
+}
+.VanWords {
+  /* white */
+  position: relative;
+  color: black;
+  margin-top: -10px;
+  font-family: Caprasimo;
+  white-space: nowrap;
+}
+/* blue */
+
+.BlueBottomWords {
+  text-shadow: black 1px 1px 2px;
+  font-family: libre_baskerville;
+  width: 100%;
+}

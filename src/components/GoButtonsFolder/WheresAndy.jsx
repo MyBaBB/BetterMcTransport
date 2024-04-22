@@ -3,11 +3,13 @@ import React from "react";
 import "./GoButtons.css";
 const WheresAndy = () => {
   return (
-    <div className="WheresAndyWrapper relative flex justify-center  z-[3] h-fit w-full   
+    <div
+      className="WheresAndyWrapper relative z-[3] flex  h-fit w-full justify-center   
     p-4 text-[12px] text-sm      
      xs:text-[1.5rem] sm:text-[1.8rem]   md:text-[2.1rem]  
-         ">
-      <div className="relative flex w-full justify-around text-amber-100   " >
+         "
+    >
+      <div className="relative flex w-full justify-around text-amber-100   ">
         <a href="https://support.google.com/maps/answer/7326816?hl=en&co=GENIE.Platform%3DAndroid">
           <div className=" whitespace-nowrap">
             <p className="WheresAndy mr-1 ">
