@@ -11,6 +11,7 @@ import GoButtons from "./GoButtonsFolder/GoButtons.jsx";
 import Accordion01Images from "./Accordion01Images.jsx";
 import Accordion03Reviews from "./Accordion03Reviews.jsx";
 import AquariumDataTip from "./AquariumFolder/AquariumDataTip.jsx";
+import Gorilla from "../Gorilla.jsx";
 // import ScubaMan from "./ScubaManFolder/ScubaMan.jsx";
 // import ScubaMask from "./ScubaManFolder/ScubaMask.jsx";
 const MainHands = () => {
@@ -25,9 +26,8 @@ const MainHands = () => {
         >
           <div className="relative  w-fit flex-col items-center justify-center  ">
             <GoButtons />
-            
             <AndysFlag />
-
+            <Gorilla  />
             <div
               className="Accordian2Wrapper relative mt-[.5rem] block border-2  border-red-500   px-[10px]
         text-green-50   sm:px-[.5rem] md:mt-[1rem]"
