@@ -13,12 +13,11 @@
   width: max-content;
   position: absolute;
   content: attr(data-tool-tip);
-  top: -.6rem;
+  top: -0.6rem;
   left: 50%;
   transform: translateX(-50%) scale(var(--scale));
   transform-origin: bottom center;
   transition: ease-in 0.25s;
-  
 
   border-radius: 10px;
   padding-top: 3px;

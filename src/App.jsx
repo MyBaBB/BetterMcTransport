@@ -4,16 +4,12 @@ import "./App.css";
 import MainAndy from "./components/MainAndy.jsx";
 import Header from "./components/HeaderFolder/Header.jsx";
 
- 
-
 function App() {
   return (
     <>
-     <Header />
-    
+      <Header />
 
       <MainAndy />
-      
     </>
   );
 }
