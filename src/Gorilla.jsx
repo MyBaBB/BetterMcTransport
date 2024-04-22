@@ -6,18 +6,18 @@ const Gorilla = () => {
     /* --------- Under Construction Gorilla -----------  */
 
     <div
-      className="Test z-1 relative  m-[20px] mt-14 h-fit min-w-screen
+      className="Test z-1 min-w-screen  relative m-[20px] mt-14 h-fit
              flex-row items-center justify-center rounded-3xl
       border-2 border-lime-500  bg-varLIGHTSPACE p-[2rem] text-center shadow-2xl"
     >
-      <p className="whitespace-nowrap font-BlackOpsOne text-3xl text-lime-500">
+      <p className="font-BlackOpsOne whitespace-nowrap text-3xl text-lime-500">
         This Region
       </p>
       <div className="relative flex h-[30%] w-full items-center justify-center">
         <GiGorilla size={80} className="text-gray-800" />
       </div>
 
-      <p className="whitespace-nowrap font-BlackOpsOne text-3xl text-lime-500">
+      <p className="font-BlackOpsOne whitespace-nowrap text-3xl text-lime-500">
         Under Construction
       </p>
     </div>

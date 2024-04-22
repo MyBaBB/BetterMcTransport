@@ -3,8 +3,13 @@ import React from "react";
 
 const GoButtons = () => {
   return (
-    <div className="flex justify-center items-center w-screen border-2  border-red-500  ">
-      <div className="GoButtonsWrapper relative border-2  border-red-500   flex m-auto justify-center items-center">
+    <div className="flex w-screen   items-center justify-center p-1  ">
+      <div
+        className="GoButtonsWrapper  relative m-auto mx-1 mt-8 flex scale-75 
+      items-center justify-center space-x-0 text-[12px] text-sm xxs:scale-100 xxs:space-x-1  
+      xs:space-x-8 xs:text-[1.5rem] sm:text-[1.8rem] md:space-x-12 md:text-[2.1rem] lg:space-x-16 
+         xl:space-x-20 2xl:space-x-24"
+      >
         <a href="https://www.instagram.com">
           <div className="GoButtons">
             <p>Instagram</p>

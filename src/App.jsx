@@ -6,14 +6,13 @@ import Sidenav from "./components/Sidenav.jsx";
 import Header from "./components/HeaderFolder/Header.jsx";
 import Gorilla from "./Gorilla.jsx";
 
-
 function App() {
   return (
     <>
-      < Header />
-      < Sidenav />
-      <Gorilla />
-      < MainAndy />
+      <Header />
+      <Sidenav />
+
+      <MainAndy />
       <Gorilla />
     </>
   );

@@ -21,7 +21,7 @@ const Sidenav = () => {
           <AiOutlineMenu
             size={50}
             onClick={handleNav}
-            className="fixed right-5 top-4  z-[99] sm:right-4  sm:top-[1.5rem] md:hidden
+            className="absolute right-5 top-4  z-[99] sm:right-4  sm:top-[1.5rem] md:hidden
        
     "
             style={{ color: "#403121" }}
