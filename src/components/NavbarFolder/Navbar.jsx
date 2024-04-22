@@ -31,9 +31,9 @@ const Navbar = () => {
     setIsMenuClicked(false);
     setBurgerClass("burger-bar unclicked");
   };
-
+ 
   return (
-    <div className="navWrapper absolute z-50">  {/* to adjust hamburger  */}
+    <div className="navWrapper absolute z-[202]">  {/* to adjust hamburger  */}
       <nav className="">
         <div className="burger-menu md:hidden " onClick={updateMenu}>
           <div

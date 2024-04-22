@@ -3,14 +3,15 @@ import React from "react";
 import SwampBuggy from "./SwampBuggy.webp";
 import OctoArmy from "./OctoArmy.jpg";
 import "../NavbarFolder/Navbar.css";
-import "../NavbarFolder/Navbar";
+ 
 import "./Header.css";
 import Navbar from "../NavbarFolder/Navbar";
 const Header = () => {
   return (
     <div>
+      <Navbar /> 
       <div className="headerWrapper">
-        <Navbar />
+       
         <a href="https://mybabb.com">
           <div className="outerSwampBuggyWrapper hidden md:block">
             <div className="swampBuggyWrapper">

@@ -4,17 +4,18 @@
 }
 
 /* -------------Navbar and Burger menu ---------- */
+  /* holds the burger icon */
+
 .navWrapper {
- 
   height: 5em;
   left: 1rem;
   display: flex;
   justify-content: flex-start;
   padding: 1em;
 }
-
+  /* burger icon position */
 .burger-menu {
-  background-color: transparent;
+  background-color: transparent; 
   height: 100%;
   width: 4em;
   display: flex;
@@ -23,24 +24,26 @@
   justify-content: space-between;
   cursor: pointer;
 }
-.burger-bar {
-  width: 4em;
+ /*  burger icon  bars */
+.burger-bar {         
+  width: 4em; 
   height: 0.5em;
   z-index: 101;
   border-radius: 0.5em;
-  
+   
 }
+/* total hidden border screen size */
 .menu {
-  width: 100%;
-  height: screen;
-  background-color: rgba(120, 134, 107, 0.8);      
-  font-family:black ops one ;
-  position: fixed;
-  border: 5px solid rgb(73, 73, 9);
+  position:fixed ;
+  top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  top: 0;
+  background-color: rgba(120, 134, 107, 0.8);      
+  font-family:black ops one ;
+  
+  border: 5px solid blue;     
+  
   z-index: 10;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
