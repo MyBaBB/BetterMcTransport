@@ -7,6 +7,7 @@
   /* holds the burger icon */
 
 .navWrapper {
+  position: fixed;
   height: 5em;
   left: 1rem;
   display: flex;
@@ -41,7 +42,8 @@
   bottom: 0;
   background-color: rgba(120, 134, 107, 0.8);      
   font-family:black ops one ;
-  
+  width: 100%;
+  height: 100vh;
   border: 5px solid blue;     
   
   z-index: 10;
