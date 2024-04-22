@@ -61,7 +61,8 @@ const Navbar = () => {
       </nav>
 
       <div className={menu_class}>
-        <section id="mobile-menu" className=" relative m-auto flex  text-4xl">
+        <section id="mobile-menu" className="hiddenHolder relative justify-center align-center 
+                  m-auto flex p-2 text-4xl">
           <div
             className="  relative top-0 z-[1]  
               w-fit bg-[#584C3A] border-[6px] border-[#494909] rounded-3xl  px-[3rem] text-center"
@@ -70,7 +71,7 @@ const Navbar = () => {
               className="justify-top relative my-auto   flex min-h-screen flex-col  "
               aria-label="mobile"
             >
-              <p id="mobile-menu">
+              <p id="mobile-menu2">
                 <br />
                 <br />
                 <br />
