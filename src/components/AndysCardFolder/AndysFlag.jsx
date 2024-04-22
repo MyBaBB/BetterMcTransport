@@ -1,17 +1,16 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 // eslint-disable-next-line no-unused-vars
-import AndysTruck from "../assets/Img/AndysTruck.webp";
-import VeteranLogo from "../assets/Img/VeteranLogo.webp";
-
+import AndysTruck from "./AndysTruck.webp";
+import VeteranLogo from "./VeteranLogo.webp";
+import "./AndysCard.css";
 const Instagram = () => {
   return (
     <div>
       <>
         <div
-          className="DavesNewCard relative top-[6rem] m-auto w-fit flex-row justify-center rounded-2xl
-          border-[3px] 
-          border-green-400 md:top-[6rem] lg:top-[7.75rem] xl:top-[8.75rem] "
+          className="DavesNewCard relative mt-4  m-auto w-fit flex-row justify-center rounded-2xl
+            "
           style={{ aspectRatio: "1.75/1" }}
         >
           <article
@@ -83,12 +82,12 @@ const Instagram = () => {
                  sm:mt-[.25rem] sm:text-[24px] md:mt-[.5rem] md:text-[30px] lg:mt-[.5rem] lg:text-[30px] xl:text-[37px]
               "
               >
-                <span className="whitespace-nowrap">
+                <span className="whitespace-nowrap text-amber-100">
                   {" "}
                   We Move Power-Sports{" "}
                 </span>
                 <br />
-                <span className="whitespace-nowrap">
+                <span className="whitespace-nowrap text-amber-100">
                   {" "}
                   To Your Location
                 </span>{" "}

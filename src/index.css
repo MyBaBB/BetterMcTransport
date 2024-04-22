@@ -25,33 +25,6 @@ body {
   padding: 2px;
   background-color: #c7b090;
 }
-.GoButtons {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid #725432;
-  border-radius: 9px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
-  background: linear-gradient(to bottom, #4b5320, black);
-  padding: 9px;
-  font-family: black_ops_one;
-  color: rgba(255, 251, 235, 1);
-}
-.WheresAndy {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid #725432;
-  border-radius: 9px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
-  background: linear-gradient(to bottom, #4b5320, black);
-  padding: 6px;
-  font-family: black_ops_one;
-  color: rgb(0, 136, 255);
-}
-
 .triangle {
   position: relative;
   display: flex;
@@ -168,7 +141,7 @@ body {
   text-decoration: underline;
 }
 
-.DavesPhoneNumberWrapper {
+.AndysPhoneNumberWrapper {
   font-family: black_ops_one;
   font-size: 1.75rem;
   color: #3a3f18;
@@ -180,31 +153,8 @@ body {
   padding-inline: 1rem;
   text-shadow: 1px 1px 2px rgba(229, 225, 225, 0.8);
 }
-/* red */
-.DavesNewCard {
-  box-shadow: black 2px 2px 5px;
-}
-.RedTopWords {
-  padding: 10px;
-  font-family: libre_baskerville;
-  color: rgba(255, 251, 235, 1);
-  text-shadow: black 1px 1px 2px;
-}
-.VanWords {
-  /* white */
-  position: relative;
-  color: black;
-  margin-top: -10px;
-  font-family: Caprasimo;
-  white-space: nowrap;
-}
-/* blue */
+ 
 
-.BlueBottomWords {
-  text-shadow: black 1px 1px 2px;
-  font-family: libre_baskerville;
-  width: 100%;
-}
 
 .tagHole {
   position: absolute;

@@ -4,10 +4,10 @@ import Copyright from "./Copyright.jsx";
 // import UpperLeftIcon from "../assets/Img/upperLeftIcon.webp";
 import BigPicture from "./BigPicture.jsx";
 
-import DavesFlag from "./DavesFlag.jsx";
+import AndysFlag from "./AndysCardFolder/AndysFlag.jsx";
 import AndysDogTag from "./AndysDogTag.jsx";
-import GoButtons from "./GoButtons.jsx";
-import WheresAndy from "./WheresAndy.jsx";
+import GoButtons from "./GoButtonsFolder/GoButtons.jsx";
+ 
 import Accordion01Images from "./Accordion01Images.jsx";
 import Accordion03Reviews from "./Accordion03Reviews.jsx";
 import AquariumDataTip from "./AquariumFolder/AquariumDataTip.jsx";
@@ -25,8 +25,8 @@ const MainHands = () => {
         >
           <div className="relative  w-fit flex-col items-center justify-center  ">
             <GoButtons />
-            <WheresAndy />
-            <DavesFlag />
+            
+            <AndysFlag />
 
             <div
               className="Accordian2Wrapper relative mt-[.5rem] block border-2  border-red-500   px-[10px]
