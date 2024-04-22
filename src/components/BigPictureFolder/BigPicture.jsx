@@ -4,7 +4,7 @@ const BigPicture = () => {
     <div>
       <>
         <div
-          className="relative  mx-auto   flex content-center 
+          className="relative  mx-auto hidden md:flex   content-center 
       justify-center    "
         >
           {

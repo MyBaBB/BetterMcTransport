@@ -9,7 +9,6 @@
   font-weight: 400;
   min-width: 200px;
   color-scheme: light dark;
-
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -25,35 +24,6 @@ body {
   padding: 2px;
   background-color: #c7b090;
 }
-.triangle {
-  position: relative;
-  display: flex;
-  left: 7.9px;
-  background-color: #41301b;
-  top: 1.5px;
-  width: 16px;
-  height: 9px;
-  border-top-left-radius: 2px;
-  border-top-right-radius: 2px;
-  border-top: 0.7px double #91785d;
-
-  z-index: 2;
-}
-
-.triangle::before {
-  content: "";
-  position: absolute;
-  bottom: -5.9px;
-  left: calc(50% - 5.5px);
-  width: 11px;
-  height: 11px;
-  background-color: #41301b;
-  transform: rotate(45deg);
-  z-index: 1;
-  box-shadow: 1px 1px 1px 1px #41301b;
-  border-right: 1.5px solid #91785d;
-  border-bottom: 1.5px solid #91785d;
-}
 
 /*  header above */
 
@@ -63,15 +33,8 @@ body {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
   z-index: 0;
 }
-.AboutUsParagraphAccordion2 {
-  font-family: Libre_Baskerville;
-  text-align: center;
-  padding: 0.5rem;
-  border: 2px solid #725432;
-  border-radius: 20px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
-  z-index: 0;
-}
+
+
 .OurPhotosAccordion1 {
   font-family: Libre_Baskerville;
   text-align: center;
@@ -81,16 +44,7 @@ body {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
   z-index: 0;
 }
-.Accordion03ReviewsWrapper {
-  font-family: Libre_Baskerville;
-  text-align: center;
-  padding-bottom: 0.2rem;
-  padding-top: 0.2rem;
-  border: 3px solid #917657;
-  border-radius: 20px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
-  z-index: 0;
-}
+
 .TopArticleWrapper {
   font-family: Libre_Baskerville;
   text-align: center;
@@ -110,36 +64,8 @@ body {
   z-index: 0;
 }
 
-/* reviews below */
-.ReviewsPersonHorizontalRule {
-  border: 2px solid #725432;
-  width: 70%;
-  margin: auto;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-.ReviewsPersonStarRating {
-  border: 2px solid #725432;
-  border-radius: 4px;
-  font-size: 1.5rem;
-  margin: auto;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-.ReviewsPersonDate {
-  font-size: 0.755rem;
-  margin: auto;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-.ReviewsPersonName {
-  padding-top: 3rem;
-  font-size: 1.75rem;
-  margin: auto;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-  text-decoration: underline;
-}
+ 
+
 
 .AndysPhoneNumberWrapper {
   font-family: black_ops_one;

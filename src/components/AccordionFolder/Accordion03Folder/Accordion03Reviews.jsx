@@ -1,6 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from "react";
 import { GrStarOutline } from "react-icons/gr";
+import "./Accordion03.css";
 const Accordion03 = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -9,35 +10,40 @@ const Accordion03 = () => {
   };
 
   return (
-    <div>
+    <div >
       <>
-        <div className=" relative mx-auto mt-8 flex w-full content-center justify-center  ">
+        <div className=" relative  mx-auto mt-8 md:mt-[9rem] flex w-full content-center justify-center  ">
           <div
             onClick={toggleAccordion03Reviews}
-            className={`openMenu  } relative flex h-full w-[80%] items-center  
+            className={`openMenu'} relative  flex h-full w-[80%] items-center  
       justify-center`}
           >
             <div
-              className="Accordion03ReviewsWrapper  relative mt-2 w-full cursor-pointer content-center justify-center  
-         rounded-3xl bg-gradient-to-b  from-[#4b5320] to-[#41301b]   md:mt-[-10rem] "
+              className="Accordion03ReviewsWrapper  relative mt-2 w-full cursor-pointer 
+              content-center justify-center  
+         rounded-[24px] bg-gradient-to-b  from-[#4b5320] to-[#41301b]   md:mt-[-10rem] "
             >
               <div
-                className="mx-auto flex content-center justify-center 
+                className="relative mx-auto flex  content-center justify-center 
           pb-[6px] pt-[4px]"
               >
+                 <div
+                    className="absolute  left-[15px] top-[1px] md:top-[4px] h-12 w-12  rounded-full  bg-gradient-to-b 
+             from-amber-200 to-varDarkBrown pt-[2px]  text-4xl  shadow-sm shadow-black   "
+                    style={{ textShadow: "0px -1px 2px black" }}
+                  >
+                    {" "}
+                    <span
+                className={`triangle ${isOpen ? "rotate-180" : ""}`}
+                style={{ marginTop: isOpen ? "7px" : "" }}
+              ></span>
+                  </div>
                 <button
                   className="text-base  font-extrabold text-amber-100 sm:text-2xl "
                   style={{ textShadow: "1px 1px 2px black" }}
                 >
-                  <div
-                    className="absolute left-[3px] top-[4px] h-8 w-8  rounded-full  bg-gradient-to-b 
-             from-amber-200 to-varDarkBrown pt-[7px]  text-4xl  shadow-sm shadow-black sm:top-[9px] "
-                    style={{ textShadow: "0px -1px 2px black" }}
-                  >
-                    {" "}
-                    <span className="triangle"></span>
-                  </div>
-                  Reviews
+                 
+                  <p className="reviews text-[20px] p-[.4rem]">Reviews</p>
                 </button>
               </div>
 
@@ -144,14 +150,6 @@ const Accordion03 = () => {
                       </p>
                     </div>
 
-                    {/* <div   className=' flex-col justify-start content-center  '>
-  <span className='ReviewsPersonName'>name</span> <br/>
-  <span className='ReviewsPersonDate'>date</span> <br/> 
-  <span className="ReviewsPersonStarRating">⭐⭐⭐⭐⭐</span>
-  <p className='ReviewsPersonParagraph'>&nbsp;&nbsp;review</p> 
-  <hr className="ReviewsPersonHorizontalRule"/>
-</div>
- */}
                   </div>
                 </>
               )}
