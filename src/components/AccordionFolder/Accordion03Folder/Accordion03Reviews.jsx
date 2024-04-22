@@ -10,9 +10,9 @@ const Accordion03 = () => {
   };
 
   return (
-    <div >
+    <div>
       <>
-        <div className=" relative  mx-auto mt-8 md:mt-[9rem] flex w-full content-center justify-center  ">
+        <div className=" relative  mx-auto mt-8 flex w-full content-center justify-center md:mt-[9rem]  ">
           <div
             onClick={toggleAccordion03Reviews}
             className={`openMenu'} relative  flex h-full w-[80%] items-center  
@@ -27,23 +27,22 @@ const Accordion03 = () => {
                 className="relative mx-auto flex  content-center justify-center 
           pb-[6px] pt-[4px]"
               >
-                 <div
-                    className="absolute  left-[15px] top-[1px] md:top-[4px] h-12 w-12  rounded-full  bg-gradient-to-b 
-             from-amber-200 to-varDarkBrown pt-[2px]  text-4xl  shadow-sm shadow-black   "
-                    style={{ textShadow: "0px -1px 2px black" }}
-                  >
-                    {" "}
-                    <span
-                className={`triangle ${isOpen ? "rotate-180" : ""}`}
-                style={{ marginTop: isOpen ? "7px" : "" }}
-              ></span>
-                  </div>
+                <div
+                  className="absolute  left-[15px] top-[1px] h-12 w-12 rounded-full  bg-gradient-to-b  from-amber-200 
+             to-varDarkBrown pt-[2px] text-4xl  shadow-sm  shadow-black md:top-[4px]   "
+                  style={{ textShadow: "0px -1px 2px black" }}
+                >
+                  {" "}
+                  <span
+                    className={`triangle ${isOpen ? "rotate-180" : ""}`}
+                    style={{ marginTop: isOpen ? "7px" : "" }}
+                  ></span>
+                </div>
                 <button
                   className="text-base  font-extrabold text-amber-100 sm:text-2xl "
                   style={{ textShadow: "1px 1px 2px black" }}
                 >
-                 
-                  <p className="reviews text-[20px] p-[.4rem]">Reviews</p>
+                  <p className="reviews p-[.4rem] text-[20px]">Reviews</p>
                 </button>
               </div>
 
@@ -149,7 +148,6 @@ const Accordion03 = () => {
                         chose Andy.&apos;
                       </p>
                     </div>
-
                   </div>
                 </>
               )}

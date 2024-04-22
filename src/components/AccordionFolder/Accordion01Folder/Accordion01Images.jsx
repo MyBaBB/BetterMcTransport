@@ -23,25 +23,27 @@ const Accordion01 = () => {
          flex h-full w-[80%] items-center 
       justify-center`}
         >
-          <div className="OurPhotosAccordion1  relative  mx-auto w-full cursor-pointer content-center justify-center
+          <div
+            className="OurPhotosAccordion1  relative  mx-auto w-full cursor-pointer content-center justify-center
            
-            bg-gradient-to-b  from-[#4b5320] to-[#41301b]  md:hidden">
+            bg-gradient-to-b  from-[#4b5320] to-[#41301b]  md:hidden"
+          >
             <div className="relative mx-auto flex content-center justify-center ">
               <button
                 className="text-base  font-extrabold text-amber-100  sm:text-2xl"
                 style={{ textShadow: "1px 1px 2px black" }}
               >
                 <div
-                  className="absolute  left-[8px]  top-[-3px]  sm:top-[-1.3px]  h-12 w-12  rounded-full  bg-gradient-to-b 
-                  from-amber-200 to-varDarkBrown pt-[2px]  text-4xl  shadow-sm shadow-black  "
+                  className="absolute  left-[8px]  top-[-3px]  h-12  w-12 rounded-full  bg-gradient-to-b  from-amber-200 
+                  to-varDarkBrown pt-[2px] text-4xl  shadow-sm  shadow-black sm:top-[-1.3px]  "
                   style={{ textShadow: "0px -1px 2px black" }}
                 >
                   <span
-                className={`triangle ${isOpen ? "rotate-180" : ""}`}
-                style={{ marginTop: isOpen ? "6px" : "" }}
-              ></span>
+                    className={`triangle ${isOpen ? "rotate-180" : ""}`}
+                    style={{ marginTop: isOpen ? "6px" : "" }}
+                  ></span>
                 </div>
-               <p className="photos text-[20px] p-2 ">Photos</p>
+                <p className="photos p-2 text-[20px] ">Photos</p>
               </button>
             </div>
             {isOpen && (

@@ -13,12 +13,12 @@
   width: max-content;
   position: absolute;
   content: attr(data-tool-tip);
-
+  top: -.6rem;
   left: 50%;
   transform: translateX(-50%) scale(var(--scale));
   transform-origin: bottom center;
   transition: ease-in 0.25s;
-  bottom: 11rem;
+  
 
   border-radius: 10px;
   padding-top: 3px;
@@ -29,20 +29,21 @@
   z-index: 3;
 }
 
-.dataToolTip9::after {
+/* .dataToolTip9::after {
   content: "";
   width: 15px;
   height: 15px;
   position: absolute;
   padding: 0.1em 0.1em 0.2em 0.1em;
+  top: 1.89rem;
   left: 50%;
-  transform: translateX(-50%) scale(var(--scale));
+  transform: translateX(-50%) scale(var(--scale)); probs with firefox on this one
   transform-origin: top center;
   transition: 0.25s;
-  bottom: 9.2rem;
+  
   border: 15px solid transparent;
   border-top: lightblue 10px solid;
 
   --scale: 0;
   z-index: 2;
-}
+} */

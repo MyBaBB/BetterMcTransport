@@ -24,12 +24,7 @@ const AquariumStand = () => {
               boxShadow: "inset 0px 0px 20px rgba(0, 0, 0, 1)",
             }}
           >
-            <span
-              className="rightPointer absolute left-[22px] top-[157.5px]
-                                rotate-[45deg] text-varLIGHTBLUEFEATHER"
-            >
-              <FaLink size={17} />
-            </span>
+            
             {/* <div className="OctopusWrapper absolute top-[0.325rem] right-[21px] ">
               <img
                 src={Octopus} alt="Octopus" />
@@ -41,15 +36,18 @@ const AquariumStand = () => {
               }}
             >
               <span className="Kingthings m-4 whitespace-nowrap p-4 text-[2.2rem] ">
-                Portfolio&nbsp;Hub
-              </span>
-            </h3>
-            <span
-              className="rightPointer  absolute right-[22.5px] top-[157.5px]
-                                rotate-[45deg] text-varLIGHTBLUEFEATHER"
-            >
+              <span
+                      className="rightPointer inline-block
+                                 text-varLIGHTBLUEFEATHER">
+              <FaLink size={17} />
+            </span>&nbsp;Portfolio&nbsp;Hub&nbsp;
+                <span className="rightPointer  inline-block 
+                                 rotate-[90deg] text-varLIGHTBLUEFEATHER"            >
               <FaLink size={17} />
             </span>
+              </span>
+            </h3>
+            
           </div>
         </div>
       </div>

@@ -4,8 +4,8 @@ const BigPicture = () => {
     <div>
       <>
         <div
-          className="relative  mx-auto hidden md:flex   content-center 
-      justify-center    "
+          className="relative  mx-auto hidden content-center   justify-center 
+      md:flex    "
         >
           {
             <div id="BigPicture" className="relative  ">

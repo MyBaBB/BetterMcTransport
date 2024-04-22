@@ -53,6 +53,7 @@
   border-radius: 50%;
   left: 4rem;
   top: 1rem;
+ 
 }
 
 .swampBuggyWrapper {
@@ -62,13 +63,13 @@
   border-radius: 50%;
   box-shadow: inset 0px 0px 12px rgba(0, 0, 0, 0.8);
 }
-.swampBuggyWrapper :hover {
+.swampBuggyWrapper:hover {
   background-image: linear-gradient(to top right, black, #c7b090, #4b5320);
   border-radius: 50%;
 }
 
-.dataToolTip82:hover::before,
-.dataToolTip82:hover::after {
+.dataToolTip82:hover:before,
+.dataToolTip82:hover:after {
   --scale: 1;
 }
 .dataToolTip82::before {
@@ -95,13 +96,15 @@
   z-index: 3;
 }
 
-.dataToolTip82::after {
+/* .dataToolTip82:after {
   content: "";
   width: 15px;
   height: 15px;
   position: absolute;
   padding: 0.1em 0.1em 0.1em 0.1em;
-  transform: translateX(-50%) scale(var(--scale));
+  
+  transform: translateX(-50%) scale(var(--scale));   firefox problems here
+
   transform-origin: left;
   transition: 0.35s;
   top: 2.75rem;
@@ -112,13 +115,13 @@
   color: #492407;
   --scale: 0;
   z-index: 1;
-}
+} */
 
-.dataToolTip81:hover::before,
-.dataToolTip81:hover::after {
+.dataToolTip81:hover:before,
+.dataToolTip81:hover:after {
   --scale: 1;
 }
-.dataToolTip81::before {
+.dataToolTip81:before {
   content: attr(data-tool-tip);
   background: radial-gradient(black, #492407);
   color: rgb(6, 198, 6);
@@ -143,14 +146,14 @@
   z-index: 3;
 }
 
-.dataToolTip81::after {
+/* .dataToolTip81:after {     
   content: "";
 
   width: 15px;
   height: 15px;
   position: absolute;
   padding: 0.1em 0.1em 0.1em 0.1em;
-  transform: translateX(-50%) scale(var(--scale));
+  transform: translateX(-50%) scale(var(--scale)); problems with firefox here
   transform-origin: right;
   transition: 0.35s;
   top: 2.9rem;
@@ -163,4 +166,4 @@
   color: #492407;
   --scale: 0;
   z-index: 1;
-}
+} */

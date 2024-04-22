@@ -12,6 +12,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+   
 }
 
 body {
@@ -33,7 +34,6 @@ body {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
   z-index: 0;
 }
-
 
 .OurPhotosAccordion1 {
   font-family: Libre_Baskerville;
@@ -63,9 +63,6 @@ body {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
   z-index: 0;
 }
-
- 
-
 
 .AndysPhoneNumberWrapper {
   font-family: black_ops_one;

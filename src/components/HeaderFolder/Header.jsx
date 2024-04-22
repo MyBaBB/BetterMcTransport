@@ -2,11 +2,16 @@
 import React from "react";
 import SwampBuggy from "./SwampBuggy.webp";
 import OctoArmy from "./OctoArmy.jpg";
+import "../NavbarFolder/Navbar.css";
+import "../NavbarFolder/Navbar"
 import "./Header.css";
+import Navbar from "../NavbarFolder/Navbar";
 const Header = () => {
   return (
     <div>
+    
       <div className="headerWrapper">
+      <Navbar />
         <a href="https://mybabb.com">
           <div className="outerSwampBuggyWrapper hidden md:block">
             <div className="swampBuggyWrapper">
@@ -25,16 +30,19 @@ const Header = () => {
           </div>
         </a>
         <p
-          className=" headerCenterTextBox  text-[12px]sm:text-[16px] w-fit scale-[70%] 
+          className=" headerCenterTextBox -mt-10  text-[12px]sm:text-[16px] w-fit scale-[70%] 
          text-amber-100    xxs:scale-[80%] xs:scale-[100%] md:text-[20px] lg:text-[25px] xl:text-[30px]"
         >
           <h1>Andy&apos;s 4x4 ATV-Transport</h1>
         </p>
         <a href="https://resume-hub.mybabb.com/">
-          <div className="outerOctoArmyWrapper">
-            <div className="octoArmyWrapper hidden md:block">
-              <div className="dataToolTip82" data-tool-tip="To Kraken">
+       
+          <div className="outerOctoArmyWrapper hidden md:block">
+          <div className="dataToolTip82" data-tool-tip="To Kraken">
+            <div className="octoArmyWrapper ">
+              
                 <div className=" relative">
+               
                   <img
                     src={OctoArmy}
                     alt="Army Octopus"
