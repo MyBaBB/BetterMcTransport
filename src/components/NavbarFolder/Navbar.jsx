@@ -33,7 +33,7 @@ const Navbar = () => {
   };
  
   return (
-    <div className="navWrapper absolute z-[202]">  {/* to adjust hamburger  */}
+    <div className="navWrapper fixed top-0 z-[202]">  {/* to adjust hamburger  */}
       <nav className="">
         <div className="burger-menu md:hidden " onClick={updateMenu}>
           <div
