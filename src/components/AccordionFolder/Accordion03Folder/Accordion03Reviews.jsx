@@ -12,7 +12,7 @@ const Accordion03 = () => {
   return (
     <div>
       <>
-        <div className=" relative  mx-auto mt-8 flex w-full content-center justify-center md:mt-[9rem]  ">
+        <div className=" relative  mx-auto mt-8 flex w-fit p-2 content-center justify-center md:mt-[9rem]  ">
           <div
             onClick={toggleAccordion03Reviews}
             className={`openMenu'} relative  flex h-full w-[80%] items-center  
@@ -28,7 +28,7 @@ const Accordion03 = () => {
           pb-[6px] pt-[4px]"
               >
                 <div
-                  className="absolute  left-[15px] top-[1px] h-12 w-12 rounded-full  bg-gradient-to-b  from-amber-200 
+                  className="relative  left-[15px] top-[1px] h-12 w-12 rounded-full  bg-gradient-to-b  from-amber-200 
              to-varDarkBrown pt-[2px] text-4xl  shadow-sm  shadow-black md:top-[4px]   "
                   style={{ textShadow: "0px -1px 2px black" }}
                 >

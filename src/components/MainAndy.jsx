@@ -11,7 +11,7 @@ import GoButtons from "./GoButtonsFolder/GoButtons.jsx";
 import Accordion01Images from "./AccordionFolder/Accordion01Folder/Accordion01Images.jsx";
 import Accordion03Reviews from "./AccordionFolder/Accordion03Folder/Accordion03Reviews.jsx";
 import AquariumDataTip from "./AquariumFolder/AquariumDataTip.jsx";
-
+import Gorilla from "../Gorilla.jsx";
 // import ScubaMan from "./ScubaManFolder/ScubaMan.jsx";
 // import ScubaMask from "./ScubaManFolder/ScubaMask.jsx";
 const AndysMain = () => {
@@ -21,13 +21,14 @@ const AndysMain = () => {
         {/*above is the HeaderWrapper */}
         {/* <ScubaMask /> */}
         <div
-          className="bodyWrapper relative  flex min-w-full
-           items-center justify-center   "
+          className="bodyWrapper relative justify-center items-center flex min-w-full
+            p-2 border-2 border-red-500"
         >
-          <div className="relative  w-fit flex-col items-center justify-center  ">
+          <div className="relative flex border-2 border-blue-500 w-full flex-col 
+          items-center justify-center m-auto  p-1 ">
             <GoButtons />
             <AndysCard />
-
+            < Gorilla/>
             <div
               className="Accordian2Wrapper relative mt-[.5rem] block   px-[10px]
         text-green-50   sm:px-[.5rem] md:mt-[1rem]"

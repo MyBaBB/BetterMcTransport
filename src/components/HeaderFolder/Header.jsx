@@ -29,7 +29,7 @@ const Header = () => {
           </div>
         </a>
         <p
-          className=" headerCenterTextBox text-[12px]sm:text-[16px]  -mt-10 w-fit scale-[70%] 
+          className=" headerCenterTextBox text-[12px]sm:text-[16px]   w-fit scale-[70%] 
          text-amber-100    xxs:scale-[80%] xs:scale-[100%] md:text-[20px] lg:text-[25px] xl:text-[30px]"
         >
           <h1>Andy&apos;s 4x4 ATV-Transport</h1>
