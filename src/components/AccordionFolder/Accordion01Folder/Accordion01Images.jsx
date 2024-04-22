@@ -24,7 +24,8 @@ const Accordion01 = () => {
       justify-center`}
         >
           <div
-            className="OurPhotosAccordion1  relative  mx-auto w-full cursor-pointer content-center justify-center
+            className="OurPhotosAccordion1  relative  mx-auto w-full cursor-pointer
+            content-center justify-center
            
             bg-gradient-to-b  from-[#4b5320] to-[#41301b]  md:hidden"
           >

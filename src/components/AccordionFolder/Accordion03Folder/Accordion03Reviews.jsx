@@ -10,25 +10,31 @@ const Accordion03 = () => {
   };
 
   return (
-    <div>
+    <div className="mx-auto w-full content-center">
       <>
-        <div className=" relative  mx-auto mt-8 flex w-fit p-2 content-center justify-center md:mt-[9rem]  ">
+        <div className=" relative    mt-8    p-2   md:mt-[9rem]  ">
           <div
             onClick={toggleAccordion03Reviews}
-            className={`openMenu'} relative  flex h-full w-[80%] items-center  
-      justify-center`}
+            className={`openMenu } relative mx-auto 
+            flex h-full w-[81%] items-center 
+         justify-center`}
           >
             <div
-              className="Accordion03ReviewsWrapper  relative mt-2 w-full cursor-pointer 
-              content-center justify-center  
-         rounded-[24px] bg-gradient-to-b  from-[#4b5320] to-[#41301b]   md:mt-[-10rem] "
+              className="Accordion03ReviewsWrapper rounded-[22px] relative  mx-auto w-full cursor-pointer
+              content-center justify-center
+             
+              bg-gradient-to-b  from-[#4b5320] to-[#41301b]   md:mt-[-10rem] "
             >
               <div
                 className="relative mx-auto flex  content-center justify-center 
           pb-[6px] pt-[4px]"
               >
+
+
+
+                
                 <div
-                  className="relative  left-[15px] top-[1px] h-12 w-12 rounded-full  bg-gradient-to-b  from-amber-200 
+                  className="absolute  left-[12px] top-[3px] h-12 w-12 rounded-full  bg-gradient-to-b  from-amber-200 
              to-varDarkBrown pt-[2px] text-4xl  shadow-sm  shadow-black md:top-[4px]   "
                   style={{ textShadow: "0px -1px 2px black" }}
                 >
@@ -38,10 +44,14 @@ const Accordion03 = () => {
                     style={{ marginTop: isOpen ? "7px" : "" }}
                   ></span>
                 </div>
+
+
+
+
                 <button
-                  className="text-base  font-extrabold text-amber-100 sm:text-2xl "
-                  style={{ textShadow: "1px 1px 2px black" }}
-                >
+                className="text-base  font-extrabold text-amber-100  sm:text-2xl"
+                style={{ textShadow: "1px 1px 2px black" }}
+              >
                   <p className="reviews p-[.4rem] text-[20px]">Reviews</p>
                 </button>
               </div>
