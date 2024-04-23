@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 // eslint-disable-next-line no-unused-vars
-import AndysTruck from "./AndysTruck.webp";
+import SwampBuggy from "./swampBuggy.png";
 import VeteranLogo from "./VeteranLogo.webp";
 import "./AndysCard.css";
 const AndysCard = () => {
@@ -44,12 +44,10 @@ const AndysCard = () => {
               >
                 <div className="relative  ">
                   <img
-                    src={AndysTruck}
-                    alt="AndysBlankVan2"
-                    className=" mb-[-1rem] mt-[-.7rem] rotate-[-3deg]
-                 pl-[5rem] xxs:mt-[-.75rem] xs:mb-[-1.55rem] xs:mt-[-.75rem] sm:mb-[-1.55rem] 
-                sm:mt-[-1.3rem] md:mb-[-2.2rem] md:mt-[-1.55rem]   lg:mb-[-2rem] lg:mt-[-1.55rem]
-                 xl:mt-[-1.7rem] "
+                    src={SwampBuggy}
+                    alt="SwampBuggy"
+                    className="swampBuggyImg m-auto  "
+                 width={200}
                   />
                   <div
                     className="VanWords 
