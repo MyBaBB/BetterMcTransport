@@ -8,8 +8,7 @@ const AndysCard = () => {
   return (
     <div>
       <>
-      <div className='andyCardWrapper relative flex w-fit m-auto border-2 border-red-500 
-       p-2'>
+      <div className='andyCardWrapper '>
         <div
           className="AndysNewCard  relative m-auto  mt-4 full flex-row justify-center rounded-2xl
             "
@@ -38,18 +37,18 @@ const AndysCard = () => {
               </span>
             </h2>
           </article>
-{/* 
+ 
           <article>
             <div
               className="WhiteFlagDiv  relative m-auto flex items-center justify-center"
               style={{ height: "33.33%", backgroundColor: "white" }}
             >
-              <div className="relative block ">
+              <div className="relative border-2 border-green-600 ">
                 <img
                   src={AndysTruck}
                   alt="AndysBlankVan2"
-                  className=" mb-[-1rem] mt-[-.7rem] rotate-[-3deg]
-                scale-[130%] pl-[5rem] xxs:mt-[-.75rem] xs:mb-[-1.55rem] xs:mt-[-.75rem] sm:mb-[-1.55rem] 
+                  className="border-2 border-green-900 mb-[-1rem] mt-[-.7rem] rotate-[-3deg]
+                 pl-[5rem] xxs:mt-[-.75rem] xs:mb-[-1.55rem] xs:mt-[-.75rem] sm:mb-[-1.55rem] 
                 sm:mt-[-1.3rem] md:mb-[-2.2rem] md:mt-[-1.55rem]   lg:mb-[-2rem] lg:mt-[-1.55rem] xl:mt-[-1.7rem]"
                 />
                 <div
@@ -61,23 +60,24 @@ const AndysCard = () => {
                 </div>
               </div>
             </div>
-          </article> */}
-
-          {/* <article
-            className="BlueFlagDiv relative m-auto   flex   rounded-b-xl align-baseline"
+          </article> 
+ 
+          <article
+            className="BlueFlagDiv  border-4 border-black  flex   rounded-b-xl "
             style={{
               height: "33.33%",
               backgroundImage:
                 "linear-gradient(to top, rgba(0, 0, 250, 1) 90% , rgba(250, 250, 250, .9))",
             }}
           >
+            <div className="w-[30%] border-2 border-red-500">
             <img
               src={VeteranLogo}
               alt="VeteranLogo"
-              className="relative inline-block"
-            />
-
-            <div className="BlueBottomWords  pt-4 ">
+              className="relative inline-block border-2 border-red-500"
+            />  
+            </div>
+            <div className="BlueBottomWords border-2 border-green-500 pt-4 ">
               <h2
                 className="
                  xl:mt-[.5rem ] mt-[-.1rem] text-[8px] xxs:mt-[0rem] xxs:text-[12px] xs:mt-[0rem] xs:text-[20px]
@@ -96,7 +96,7 @@ const AndysCard = () => {
               </h2>
             </div>
             <div
-              className="MilitaryDiscounts  xl:text-[16px]} relative flex w-fit  items-center p-2
+              className="MilitaryDiscounts border-2 border-red-500 xl:text-[16px]} relative flex w-fit  items-center p-2
             
 
             text-[8px] text-amber-100 sm:text-[10px] md:text-[12px] lg:text-[14px]
@@ -106,8 +106,8 @@ const AndysCard = () => {
                 Military <br /> Discounts <br /> Available
               </p>
             </div>
-          </article> */}
-        </div>
+          </article>
+         </div>
         </div>
       </>
     </div>
