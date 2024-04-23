@@ -5,11 +5,11 @@ import OctoArmy from "./OctoArmy.jpg";
 import "../NavbarFolder/Navbar.css";
  
 import "./Header.css";
- 
+import Navbar from "../NavbarFolder/Navbar";
 const Header = () => {
   return (
     <div>
-    
+      <Navbar /> 
       <div className="headerWrapper">
        
         <a href="https://mybabb.com">

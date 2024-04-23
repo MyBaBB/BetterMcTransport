@@ -8,7 +8,6 @@ import { RiSeoLine } from "react-icons/ri";
 import { BsPersonVcard } from "react-icons/bs";
 import { LiaHourglassHalfSolid } from "react-icons/lia";
 import { SiTestinglibrary } from "react-icons/si";
-import Header from "../HeaderFolder/Header";
 const Navbar = () => {
   //to change burger classes
   const [burger_class, setBurgerClass] = useState("burger-bar unclicked");
