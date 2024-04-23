@@ -61,8 +61,8 @@ const Navbar = () => {
       </nav>
 
       <div className={menu_class}>
-        <section id="mobile-menu" className="hiddenHolder relative justify-center align-center 
-                  m-auto flex p-2 text-4xl">
+        <section id="mobile-menu" className="hiddenHolder relative flex m-auto  text-4xl 
+                   ">
           <div
             className="  relative top-0 z-[1]  
               w-fit bg-[#584C3A] border-[6px] border-[#494909] rounded-3xl  px-[3rem] text-center"
