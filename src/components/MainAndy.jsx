@@ -27,7 +27,7 @@ const AndysMain = () => {
           <div className="relative flex  w-full flex-col 
           items-center justify-center m-auto  p-1 ">
             {/* <GoButtons /> */}
-            <AndysCard />
+            {/* <AndysCard /> */}
            
             <div
               className="Accordion2Wrapper relative mt-[.5rem] block   px-[10px]
