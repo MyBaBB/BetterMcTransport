@@ -26,7 +26,7 @@ const AndysMain = () => {
         >
           <div className="relative flex  w-full flex-col 
           items-center justify-center m-auto  p-1 ">
-            {/* <GoButtons /> */}
+            <GoButtons />
             {/* <AndysCard /> */}
            
             <div

@@ -8,6 +8,7 @@ const AndysCard = () => {
   return (
     <div>
       <>
+      <div>
         <div
           className="AndysNewCard  relative m-auto  mt-4 w-fit flex-row justify-center rounded-2xl
             "
@@ -105,6 +106,7 @@ const AndysCard = () => {
               </p>
             </div>
           </article>
+        </div>
         </div>
       </>
     </div>
