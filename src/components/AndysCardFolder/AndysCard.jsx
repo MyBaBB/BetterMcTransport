@@ -8,11 +8,12 @@ const AndysCard = () => {
   return (
     <div>
       <>
-      <div>
+      <div className='andyCardWrapper relative flex w-fit m-auto border-2 border-red-500 
+       p-2'>
         <div
-          className="AndysNewCard  relative m-auto  mt-4 w-fit flex-row justify-center rounded-2xl
+          className="AndysNewCard  relative m-auto  mt-4 full flex-row justify-center rounded-2xl
             "
-          style={{ aspectRatio: "1.75/1" }}
+         
         >
           <article
             className="RedFlagDiv m-auto rounded-t-xl"
@@ -37,7 +38,7 @@ const AndysCard = () => {
               </span>
             </h2>
           </article>
-
+{/* 
           <article>
             <div
               className="WhiteFlagDiv  relative m-auto flex items-center justify-center"
@@ -60,9 +61,9 @@ const AndysCard = () => {
                 </div>
               </div>
             </div>
-          </article>
+          </article> */}
 
-          <article
+          {/* <article
             className="BlueFlagDiv relative m-auto   flex   rounded-b-xl align-baseline"
             style={{
               height: "33.33%",
@@ -105,7 +106,7 @@ const AndysCard = () => {
                 Military <br /> Discounts <br /> Available
               </p>
             </div>
-          </article>
+          </article> */}
         </div>
         </div>
       </>
