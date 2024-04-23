@@ -27,7 +27,7 @@ const ScubaMask = () => {
                     <div>
                       <TbScubaMask
                         size={20}
-                        className="z-[150] text-blue-200  "
+                        className="z-[50] text-blue-200  "
                       />
                     </div>
                   </span>

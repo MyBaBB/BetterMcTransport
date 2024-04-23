@@ -21,14 +21,16 @@ const AndysMain = () => {
         {/*above is the HeaderWrapper */}
         {/* <ScubaMask /> */}
         <div
-          className="bodyWrapper relative justify-center items-center flex min-w-full
+          className="bodyWrapper relative flex min-w-full items-center justify-center
             p-2 "
         >
-          <div className="relative flex  w-full flex-col 
-          items-center justify-center m-auto  p-1 ">
+          <div
+            className="relative m-auto  flex w-full 
+          flex-col items-center justify-center  p-1 "
+          >
             <GoButtons />
             <AndysCard />
-           
+
             <div
               className="Accordion2Wrapper relative mt-[.5rem] block   px-[10px]
         text-green-50   sm:px-[.5rem] md:mt-[1rem]"
@@ -52,7 +54,7 @@ const AndysMain = () => {
 
             <AndysDogTag />
             <AquariumDataTip />
-            < Gorilla/>
+            <Gorilla />
             <Copyright />
           </div>
         </div>

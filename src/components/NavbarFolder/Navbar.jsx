@@ -31,61 +31,65 @@ const Navbar = () => {
     setIsMenuClicked(false);
     setBurgerClass("burger-bar unclicked");
   };
- 
+
   return (
-    <div className="navWrapper fixed top-0 z-[202]">  {/* to adjust hamburger  */}
+    <div className="navWrapper  z-30">
+      {" "}
+      {/* to adjust hamburger  */}
       <nav className="">
         <div className="burger-menu md:hidden " onClick={updateMenu}>
           <div
             className={burger_class}
             style={{
               backgroundColor: "aliceblue",
-              boxShadow: "inset 0 0 5px rgba(0, 0, 0, 0.5)",
+              boxShadow: "inset 0 0 5px rgba(0, 0, 0, .3)",
             }}
           ></div>
           <div
             className={burger_class}
             style={{
               backgroundColor: "aliceblue",
-              boxShadow: "inset 0 0 5px rgba(0, 0, 0, 0.5)",
+              boxShadow: "inset 0 0 5px rgba(0, 0, 0, .3)",
             }}
           ></div>
           <div
             className={burger_class}
             style={{
               backgroundColor: "aliceblue",
-              boxShadow: "inset 0 0 5px rgba(0, 0, 0, 0.5)",
+              boxShadow: "inset 0 0 5px rgba(0, 0, 0, .3)",
             }}
           ></div>
         </div>
       </nav>
-
       <div className={menu_class}>
-        <section id="mobile-menu" className="hiddenHolder relative flex m-auto  text-4xl 
-                   ">
-          <div
-            className="  relative top-0 z-[1]  
-              w-fit bg-[#584C3A] border-[6px] border-[#494909] rounded-3xl  px-[3rem] text-center"
+        <section
+          id="mobile-menu"
+          className="hiddenHolder relative m-auto  flex  items-center justify-center  text-4xl 
+                   "
+        >
+          <div /* middle part */
+            className="  top-1 z-[1]  
+              h-fit w-fit rounded-3xl border-[6px] border-[#494909] bg-[#584C3A]  px-[1.5rem] text-center"
           >
             <nav
-              className="justify-top relative my-auto   flex min-h-screen flex-col  "
+              className="relative flex flex-col  justify-center  "
               aria-label="mobile"
             >
               <p id="mobile-menu2">
                 <br />
-                <br />
-                <br />
                 <a href="https://mybabb.com" onClick={hideMobileMenu}>
                   {" "}
                   <div
-                    className="animate-open-menu relative flex     origin-top rounded-3xl 
+                    className="relative flex origin-top     animate-open-menu rounded-3xl 
                                  border-2 border-gray-700   bg-gradient-to-b from-slate-100
                                  to-slate-500 py-1 text-center text-black
                                  shadow-lg shadow-[#494909] "
                   >
-                    <div className="relative  inline-block pl-4 "><BsPersonVcard /></div>
-                    <span className="] m-auto ml-[2rem] pr-8 hover:text-varMEDBLUEFEATHER ">
-                      My Landing Page
+                    <div className="relative inline-block  pl-4 text-center ">
+                      <BsPersonVcard />
+                    </div>
+                    <span className="] m-auto ml-[2rem] pl-5 hover:text-varMEDBLUEFEATHER ">
+                      My Place
                     </span>
                   </div>
                 </a>
@@ -97,12 +101,14 @@ const Navbar = () => {
                 >
                   {" "}
                   <div
-                    className="animate-open-menu relative flex     origin-top rounded-3xl 
+                    className="relative flex origin-top     animate-open-menu rounded-3xl 
                                  border-2 border-gray-700   bg-gradient-to-b from-slate-100
                                  to-slate-500 py-1 text-center text-black
                                  shadow-lg shadow-[#494909]  "
                   >
-                    <div className="relative inline-block pl-4 "><GiStrongMan /></div>
+                    <div className="relative inline-block pl-4 ">
+                      <GiStrongMan />
+                    </div>
                     <span className="] m-auto  pr-6 hover:text-varMEDBLUEFEATHER ">
                       My Resume&apos;
                     </span>
@@ -116,14 +122,16 @@ const Navbar = () => {
                 >
                   {" "}
                   <div
-                    className="animate-open-menu relative flex     origin-top rounded-3xl 
+                    className="relative flex origin-top     animate-open-menu rounded-3xl 
                                  border-2 border-gray-700   bg-gradient-to-b from-slate-100
                                  to-slate-500 py-1 text-center text-black
                                  shadow-lg shadow-[#494909]  "
                   >
-                    <div className="relative inline-block pl-4 "><LiaInfoSolid /></div>
-                    <span className="] m-auto ml-[6.5rem]  hover:text-varMEDBLUEFEATHER ">
-                      About
+                    <div className="relative inline-block pl-4 ">
+                      <LiaInfoSolid />
+                    </div>
+                    <span className="] m-auto ml-[2.5rem]  hover:text-varMEDBLUEFEATHER ">
+                      About Web
                     </span>
                   </div>
                 </a>
@@ -135,14 +143,16 @@ const Navbar = () => {
                 >
                   {" "}
                   <div
-                    className="animate-open-menu relative flex     origin-top rounded-3xl 
+                    className="relative flex origin-top     animate-open-menu rounded-3xl 
                                  border-2 border-gray-700   bg-gradient-to-b from-slate-100
                                  to-slate-500 py-1 text-center text-black
                                  shadow-lg shadow-[#494909]  "
                   >
-                    <div className="relative inline-block pl-4 pr-2 "><RiSeoLine /></div>
-                    <span className="] m-auto  pr-6 hover:text-varMEDBLUEFEATHER ">
-                      Seo Booster
+                    <div className="relative inline-block pl-4 pr-2 ">
+                      <RiSeoLine />
+                    </div>
+                    <span className="] m-auto  pr-12 hover:text-varMEDBLUEFEATHER ">
+                      Search Engine
                     </span>
                   </div>
                 </a>
@@ -153,12 +163,14 @@ const Navbar = () => {
                 >
                   {" "}
                   <div
-                    className="animate-open-menu relative flex     origin-top rounded-3xl 
+                    className="relative flex origin-top     animate-open-menu rounded-3xl 
                                  border-2 border-gray-700   bg-gradient-to-b from-slate-100
                                  to-slate-500 py-1 text-center text-black
                                  shadow-lg shadow-[#494909]  "
                   >
-                    <div className="relative inline-block pl-4 pr-2 "><SiQuicklook /></div>
+                    <div className="relative inline-block pl-4 pr-2 ">
+                      <SiQuicklook />
+                    </div>
                     <span className="] m-auto  pr-6 hover:text-varMEDBLUEFEATHER ">
                       Basic Demo
                     </span>
@@ -167,12 +179,14 @@ const Navbar = () => {
                 <br />
                 <a href="https://mybabb.github.io/Franken-Timer/">
                   <div
-                    className="animate-open-menu relative flex     origin-top rounded-3xl 
+                    className="relative flex origin-top     animate-open-menu rounded-3xl 
                                  border-2 border-gray-700   bg-gradient-to-b from-slate-100
                                   to-slate-500 py-1 text-center text-black
                                   shadow-lg shadow-[#494909]  "
                   >
-                    <div className="relative inline-block pl-4 pr-2"><LiaHourglassHalfSolid /></div>
+                    <div className="relative inline-block pl-4 pr-2">
+                      <LiaHourglassHalfSolid />
+                    </div>
                     <span className="] m-auto  pr-6 hover:text-varMEDBLUEFEATHER ">
                       Special Event
                     </span>
@@ -180,15 +194,20 @@ const Navbar = () => {
                 </a>
                 <br />
 
-                <a href="#" onClick={hideMobileMenu}>
+                <a
+                  href="https://resume-hub.mybabb.com/"
+                  onClick={hideMobileMenu}
+                >
                   {" "}
                   <div
-                    className="animate-open-menu relative flex     origin-top rounded-3xl 
+                    className="relative flex origin-top     animate-open-menu rounded-3xl 
                                  border-2 border-gray-700   bg-gradient-to-b from-slate-100
                                   to-slate-500 py-1 text-center text-black
                                   shadow-lg shadow-[#494909]  "
                   >
-                    <div className="relative inline-block pl-4 "><SiTestinglibrary /></div>
+                    <div className="relative inline-block pl-4 ">
+                      <SiTestinglibrary />
+                    </div>
                     <span className="] m-auto  pr-6 hover:text-varMEDBLUEFEATHER ">
                       Kraken
                     </span>

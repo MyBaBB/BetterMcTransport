@@ -20,7 +20,7 @@ const Accordion01 = () => {
         <div
           onClick={toggleAccordion01Images}
           className={`openMenu } relative mx-auto 
-         flex h-full w-[80%] items-center 
+         flex h-full w-[80%] md:w-[60%] items-center 
       justify-center`}
         >
           <div
