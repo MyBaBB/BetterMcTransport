@@ -26,11 +26,11 @@ const AndysMain = () => {
         >
           <div className="relative flex  w-full flex-col 
           items-center justify-center m-auto  p-1 ">
-            <GoButtons />
+            {/* <GoButtons /> */}
             <AndysCard />
            
             <div
-              className="Accordian2Wrapper relative mt-[.5rem] block   px-[10px]
+              className="Accordion2Wrapper relative mt-[.5rem] block   px-[10px]
         text-green-50   sm:px-[.5rem] md:mt-[1rem]"
               style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 1)" }}
             >
