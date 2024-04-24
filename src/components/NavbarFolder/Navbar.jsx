@@ -209,7 +209,7 @@ const Navbar = () => {
                       <SiTestinglibrary />
                     </div>
                     <span className="] m-auto  pr-6 hover:text-varMEDBLUEFEATHER ">
-                      Kraken
+                      Resume&apos; Hub
                     </span>
                   </div>
                 </a>
