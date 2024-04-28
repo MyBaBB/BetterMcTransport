@@ -63,7 +63,7 @@ export default {
      },
      
      keyframes: {
-      'open-menu': {
+      'open-menu-not-used': {
         '0%': { transform: 'scaleY(0)' },
         '80%': { transform: 'scaleY(01.2)' },
         '100%': { transform: 'scaleY(1)' },
@@ -74,7 +74,7 @@ export default {
  
  
       animation: {
-      'open-menu': 'open-menu 1s ease-in-out forwards'
+      'open-menu-not-used': 'open-menu 1s ease-in-out forwards'
       },
 
 
