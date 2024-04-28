@@ -1,9 +1,10 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-
+import { SiHubspot } from "react-icons/si";
+import "./ContactUs.css";
 const ContactUs = () => {
   return (
-    <div className="relative flex left-[-18rem] m-auto top-[12rem] pb-4   " >
+    <div className="relative flex  m-auto top-[12rem] pb-4   " >
       <a
         href="https://resume-hub.mybabb.com/"
         style={{ textShadow: "2px 2px 3px #1c0303" }}
@@ -15,27 +16,16 @@ const ContactUs = () => {
           ></div>
           <span id="contactus1"></span>
 
-          <div className="m-auto mt-14  translate-x-full flex content-center justify-center">
+          <div className="m-auto mt-14  flex content-center justify-center">
             <div
-              className="m-auto content-center rounded-full border border-solid
-           border-slate-900 bg-varMEDBLUEFEATHER  p-3 font-Orbitron text-2xl text-black
-            active:bg-varLIGHTBLUEFEATHER sm:text-3xl dark:border-none"
-              style={{
-                boxShadow:
-                  "inset 0 0 10px rgba(0, 0, 0, 0.8), 0 0 10px rgba(0, 0, 0, 0.8)",
-                display: "inline-block",
-                whiteSpace: "nowrap",
-              }}
-            >
-              <span
-                style={{ display: "inline-block", transform: "scaleX(-1)" }}
-              >
-                📡
+              className="WheresAndy sm:text-3xl whitespace-nowrap "       
+                >
+              <span className="hubSpinner  inline-block text-gray-300 "><SiHubspot /></span>
+              <span 
+                    className=" z-50 font-BlackOpsOne text-gray-300 hover:text-opacity-35">
+                     &nbsp;&nbsp;Resume Hub&nbsp;&nbsp;
               </span>
-              <span className="z-50 text-varLIGHTBLUEFEATHER hover:text-varLIGHTBEAKTOP">
-                Resume Hub
-              </span>
-              <span>📡</span>
+              <span className="hubSpinnerReverse inline-block text-gray-300"> <SiHubspot /></span>
             </div>
           </div>
         </div>

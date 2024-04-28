@@ -61,21 +61,39 @@ export default {
        'lg': '1024px',
        'xl': '1280px',
      },
-     
-     keyframes: {
-      'open-menu-not-used': {
-        '0%': { transform: 'scaleY(0)' },
-        '80%': { transform: 'scaleY(01.2)' },
-        '100%': { transform: 'scaleY(1)' },
-      },
-      },
-      
- 
- 
- 
-      animation: {
-      'open-menu-not-used': 'open-menu 1s ease-in-out forwards'
-      },
+     fontFamily: {
+      'Aclonica': ['Aclonica', 'sans-serif'],
+'ArchivoBlack': ['Archivo Black', 'sans-serif'],
+'BlackOpsOne': ['Black Ops One', 'cursive'],
+'Caprasimo': ['Caprasimo', 'cursive'],
+'Creepster': ['Creepster', 'cursive'],
+'DMSerifDisplay': ['DM Serif Display-italic', 'serif'],
+'EmilysCandy': ['Emilys Candy', 'cursive'],
+    'HoltwoodOneSC': ['Holtwood One SC', 'sans-serif'],
+'Itim': ['Itim, cursive'],
+'Kingthings_Petrock': ['Kingthings_Petrock', 'cursive'],
+'Kranky': ['Kranky', 'cursive'],
+'LibreBaskerville': ['Libre Baskerville', 'serif'],
+"Montserrat": ['Montserrat', 'sans-serif'],
+'Noto Serif': ['Noto Serif', 'serif'],
+'Noto': ['Noto Sans', 'sans-serif'],
+'Nosifer': ['Nosifer', 'cursive'],
+'Orbitron': ['Orbitron', 'sans-serif'],
+'PermanentMarker': ['Permanent Marker', 'cursive'],
+'PtSerif': ['PT Serif_Bold', 'serif'],
+// eslint-disable-next-line no-dupe-keys
+'PtSerif': ['PT Serif_BoldItalic', 'serif'],
+"Rye": ['Rye', 'cursive'], 
+'Vollkorn': ['Vollkorn', 'serif'],
+'Wallpoet': ['Wallpoet', 'cursive'],
+'Sixtyfour': ['Sixtyfour', 'cursive'],
+
+},
+
+
+   
+   
+   
 
 
 

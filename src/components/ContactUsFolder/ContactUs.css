@@ -46,3 +46,42 @@
   --scale: 0;
   z-index: 2;
 }
+@keyframes slow-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes slow-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.hubSpinner {
+  animation: slow-spin 10s linear infinite;
+}
+.hubSpinnerReverse {
+  animation: slow-spin 10s linear infinite reverse;
+}
+
+
+.dataToolTip14 {
+  display: inline-block;
+  position: relative;
+  animation: spin 3s linear infinite;
+}
+/* Rest of your existing code */
+
+.dataToolTip14 {
+  display: inline-block;
+  position: relative;
+  animation: spin 5s linear infinite; /* Add this line to apply the spin animation */
+}
+
+/* Rest of your existing code */
