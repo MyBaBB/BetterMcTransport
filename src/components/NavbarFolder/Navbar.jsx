@@ -80,7 +80,7 @@ const Navbar = () => {
                 {/* xxxxxxx the mobile buttons xxxxxxxxx */}
 
                 <a
-                  href="https://mybabb.github.io/About_MyBaBB/"
+                  href="#"
                   onClick={hideMobileMenu}
                 >
                   {" "}
