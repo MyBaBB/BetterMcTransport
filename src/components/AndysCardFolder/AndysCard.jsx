@@ -47,7 +47,7 @@ const AndysCard = () => {
                     src={SwampBuggy}
                     alt="SwampBuggy"
                     className="swampBuggyImg m-auto  "
-                 width={200}
+                    width={200}
                   />
                   <div
                     className="VanWords 

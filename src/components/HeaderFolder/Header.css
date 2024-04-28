@@ -1,7 +1,6 @@
 .headerWrapper {
   position: fixed;
 
-  
   width: 100%;
   padding: 0.5rem 4rem 0.5rem 4rem;
   background-image: linear-gradient(to top right, black, #c7b090, #4b5320);

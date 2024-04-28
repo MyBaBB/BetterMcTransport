@@ -16,8 +16,8 @@ const Accordion03 = () => {
           <div
             onClick={toggleAccordion03Reviews}
             className={`openMenu } relative mx-auto 
-            flex h-full w-[81%] md:w-[60%] items-center 
-         justify-center`}
+            flex h-full w-[81%] items-center justify-center 
+         md:w-[60%]`}
           >
             <div
               className="Accordion03ReviewsWrapper relative mx-auto  w-full cursor-pointer content-center

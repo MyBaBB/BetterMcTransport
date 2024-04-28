@@ -27,7 +27,6 @@
   cursor: pointer;
   margin-top: 1em;
   margin-left: 1em;
- 
 }
 /*  burger icon  bars */
 .burger-bar {
@@ -35,7 +34,7 @@
   height: 0.5em;
   z-index: 12;
   border-radius: 0.5em;
-} 
+}
 /* total hidden border screen size  top: 48px and z12  on the main template */
 .menu {
   position: fixed;
@@ -53,56 +52,52 @@
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
- 
-
 .menuButtonWords {
   margin: 0 auto;
- }
+}
 .buttonStyles {
   position: relative;
   display: flex;
-  
+
   border-radius: 24px;
-  border:2px solid #282b30;
+  border: 2px solid #282b30;
   background-image: linear-gradient(to bottom, #5b616b, #1a1c20);
-  padding-bottom:.25rem ; 
-  padding-top:.25rem ;  
+  padding-bottom: 0.25rem;
+  padding-top: 0.25rem;
   text-align: center;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .5);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-  margin-top: 1rem ;
+  margin-top: 1rem;
   margin-bottom: 1rem;
-  
- }
+}
 .buttonStyles:hover {
   background-image: linear-gradient(to bottom, #1a1c20, #5b616b);
   transition: ease-in-out 0.5s;
- }
-@media screen and (min-width: 480px){
+}
+@media screen and (min-width: 480px) {
   .buttonStyles {
-  margin-top: 1.5rem ;
-  margin-bottom: 1.5rem;
-     }
-   }
- @media screen and (max-width: 480px){
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+}
+@media screen and (max-width: 480px) {
   .buttonStyles {
-  font-size: smaller;
-      }
- 
+    font-size: smaller;
+  }
 }
 @keyframes open-menu {
   0% {
-      transform: scaleY(0);
+    transform: scaleY(0);
   }
   80% {
-      transform: scaleY(01.2);
+    transform: scaleY(01.2);
   }
   100% {
-      transform: scaleY(1);
+    transform: scaleY(1);
   }
-} 
+}
 .animate-open-menu {
-animation: open-menu 0.5s ease-in-out forwards;
+  animation: open-menu 0.5s ease-in-out forwards;
 }
 
 /* ---------------Sliding Menu-------------- */
