@@ -1,0 +1,48 @@
+.dataToolTip14 {
+  display: inline-block;
+  position: relative;
+}
+.dataToolTip14:hover::before,
+.dataToolTip14:hover::after {
+  --scale: 1;
+}
+.dataToolTip14::before {
+  content: "";
+  color: #dbeafe;
+  background: radial-gradient(black, #492407);
+  width: max-content;
+  position: absolute;
+  content: attr(data-tool-tip);
+
+  left: 50%;
+  transform: translateX(-50%) scale(var(--scale));
+  transform-origin: bottom center;
+  transition: ease-in 0.25s;
+  bottom: 4.15rem;
+
+  border-radius: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  --scale: 0;
+  z-index: 3;
+}
+
+.dataToolTip14::after {
+  content: "";
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  padding: 0.1em 0.1em 0.2em 0.1em;
+  left: 50%;
+  transform: translateX(-50%) scale(var(--scale));
+  transform-origin: top center;
+  transition: 0.25s;
+  top: 0.5rem;
+  border: 15px solid transparent;
+  border-top: lightblue 10px solid;
+
+  --scale: 0;
+  z-index: 2;
+}

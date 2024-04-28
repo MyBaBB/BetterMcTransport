@@ -12,6 +12,7 @@ import Accordion01Images from "./AccordionFolder/Accordion01Folder/Accordion01Im
 import Accordion03Reviews from "./AccordionFolder/Accordion03Folder/Accordion03Reviews.jsx";
 import AquariumDataTip from "./AquariumFolder/AquariumDataTip.jsx";
 import Gorilla from "../Gorilla.jsx";
+import ContactButton from "./ContactUsFolder/ContactUs.jsx";
 // import ScubaMan from "./ScubaManFolder/ScubaMan.jsx";
 // import ScubaMask from "./ScubaManFolder/ScubaMask.jsx";
 const AndysMain = () => {
@@ -23,11 +24,12 @@ const AndysMain = () => {
         <div
           className="bodyWrapper relative flex min-w-full items-center justify-center
             p-2 "
-        >
+        >  
+        
           <div
             className="relative m-auto  flex w-full 
           flex-col items-center justify-center  p-1 "
-          >
+          > <ContactButton />
             <GoButtons />
             <AndysCard />
 

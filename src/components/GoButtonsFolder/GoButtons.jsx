@@ -2,12 +2,14 @@
 import React from "react";
 import WheresAndy from "./WheresAndy";
 import "./GoButtons.css";
+
 const GoButtons = () => {
   return (
     <div
-      className="  relative flex w-screen  items-center 
+      className="mt-[10rem] relative flex w-screen  items-center 
       justify-center   p-1  "
     >
+  
       <div>
         <div
           className="GoButtonsWrapper relative m-auto mx-1 mt-8 flex  scale-75 
