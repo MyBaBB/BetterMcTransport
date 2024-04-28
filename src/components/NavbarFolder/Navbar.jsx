@@ -66,8 +66,8 @@ const Navbar = () => {
       <div className={menu_class}>
         <section id="mobile-menu" className="relative m-auto flex  text-3xl">
           <div
-            className=" font-Aclonica-Regular relative top-0 z-[1]  
-              w-fit bg-[#1d1d1f]   px-[3rem] text-center"
+            className="menuBackground font-Aclonica-Regular relative top-0 z-[1]  
+              w-fit   px-[3rem] text-center"
           >
             <nav
               className="mobileNav   justify-top relative my-auto   flex min-h-screen flex-col  "

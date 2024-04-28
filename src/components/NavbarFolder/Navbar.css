@@ -35,6 +35,9 @@
   z-index: 12;
   border-radius: 0.5em;
 }
+.menuBackground {
+ background-color: #1d1d1f;
+}
 /* total hidden border screen size  top: 48px and z12  on the main template */
 .menu {
   position: fixed;
