@@ -1,8 +1,8 @@
 .headerWrapper {
-  position: relative;
+  position: fixed;
 
-  justify-content: center;
-  align-items: center;
+  
+  width: 100%;
   padding: 0.5rem 4rem 0.5rem 4rem;
   background-image: linear-gradient(to top right, black, #c7b090, #4b5320);
   box-shadow: 2px 2px 5px black;

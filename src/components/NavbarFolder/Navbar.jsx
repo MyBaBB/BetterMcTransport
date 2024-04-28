@@ -2,11 +2,11 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import { LiaInfoSolid } from "react-icons/lia";
-import { SiQuicklook } from "react-icons/si";
+import { GiAnchor } from "react-icons/gi";
 import { GiStrongMan } from "react-icons/gi";
  import { BsGithub } from "react-icons/bs";
 import { GrBaby } from "react-icons/gr";
-
+import { LiaHotdogSolid } from "react-icons/lia";
 import { BsPersonVcard } from "react-icons/bs";
 import { LiaHourglassHalfSolid } from "react-icons/lia";
 import { SiTestinglibrary } from "react-icons/si";
@@ -66,16 +66,16 @@ const Navbar = () => {
 
 
       <div className={menu_class}>
-          <section id="mobile-menu" className="relative m-auto flex  text-4xl">
+          <section id="mobile-menu" className="relative m-auto flex  text-3xl">
             <div
               className=" relative top-0 z-[1] w-fit  
               bg-[#1d1d1f] px-[3rem]   text-center font-Aclonica-Regular"
             >
               <nav
-                className="mobileNav xs:mt-8 justify-top relative my-auto   flex min-h-screen flex-col  "
+                className="mobileNav   justify-top relative my-auto   flex min-h-screen flex-col  "
                 aria-label="mobile"
               >
-                <p id="mobile-menu">
+                <p id="mobile-menu"className="relative flex-row justify-center my-auto">
                                 {/* xxxxxxx the mobile buttons xxxxxxxxx */}
 
   
@@ -85,11 +85,11 @@ const Navbar = () => {
                   >
                     {" "}
                     <div
-                       className="buttonStyles   origin-top animate-open-menu text-blue-200 ">
+                       className="buttonStyles   origin-top animate-open-menu text-green-200 ">
                       <div className="relative inline-block pl-4 pr-2 ">
-                        <SiQuicklook />
+                        <GiAnchor  />
                       </div>
-                      <span className="menuButtonWords   pr-6 ">
+                      <span className="menuButtonWords text-4xl  pr-6 ">
                         <u>Basic Demo</u>
                       </span>
                     </div>
@@ -100,13 +100,13 @@ const Navbar = () => {
                     {" "}
 
                                     <div
-                      className="buttonStyles   origin-top animate-open-menu text-blue-200 "
+                      className="buttonStyles   origin-top animate-open-menu text-green-200 "
                     >
                       <div className="relative inline-block pl-4  ">
                         <BsPersonVcard />
                       </div>
                       <span className="menuButtonWords  ml-[2rem] pr-8 ">
-                        My Landing Page
+                        MyBaBB.com
                       </span>
                     </div>
                   </a>
@@ -118,7 +118,7 @@ const Navbar = () => {
                   >
                     {" "}
                     <div
-                       className="buttonStyles   origin-top animate-open-menu text-blue-200 "                    >
+                       className="buttonStyles   origin-top animate-open-menu text-green-200 "                    >
                       <div className="relative inline-block pl-4 ">
                         <GiStrongMan />
                       </div>
@@ -135,12 +135,12 @@ const Navbar = () => {
                   >
                     {" "}
                     <div
-                       className="buttonStyles   origin-top animate-open-menu text-blue-200 "
+                       className="buttonStyles   origin-top animate-open-menu text-green-200 "
                     >
                       <div className="relative inline-block pl-4 ">
                         <LiaInfoSolid />
                       </div>
-                      <span className="menuButtonWords  ml-[7.5rem]  pr-6 ">
+                      <span className="menuButtonWords   pr-6 ">
                         About
                       </span>
                     </div>
@@ -150,7 +150,7 @@ const Navbar = () => {
                   
                   <a href="https://mybabb.github.io/Franken-Timer/">
                     <div
-                    className="buttonStyles   origin-top animate-open-menu text-blue-200 " >
+                    className="buttonStyles   origin-top animate-open-menu text-green-200 " >
                       <div className="relative inline-block pl-4 pr-2">
                         <LiaHourglassHalfSolid />
                       </div>
@@ -166,7 +166,7 @@ const Navbar = () => {
                   >
                     {" "}
                     <div
-                       className="buttonStyles   origin-top animate-open-menu text-blue-200 ">
+                       className="buttonStyles   origin-top animate-open-menu text-green-200 ">
                       <div className="relative inline-block pl-4 pr-2 ">
                       <BsGithub />
                       </div>
@@ -179,12 +179,12 @@ const Navbar = () => {
                   <a href="https://mybabb.github.io/100_Bucks_Intro/" onClick={hideMobileMenu}>
                     {" "}
                     <div
-                       className="buttonStyles   origin-top animate-open-menu text-blue-200 ">
+                       className="buttonStyles   origin-top animate-open-menu text-green-200 ">
                       <div className="relative inline-block pl-4 ">
                       <GrBaby />
                       </div>
                       <span className="menuButtonWords   pr-6 ">
-                        Beginner&nbsp;s Kit
+                        Starter Kit
                       </span>
                     </div>
                   </a>
@@ -192,7 +192,7 @@ const Navbar = () => {
                   <a href="#" onClick={hideMobileMenu}>
                     {" "}
                     <div
-                       className="buttonStyles   origin-top animate-open-menu text-blue-200 ">
+                       className="buttonStyles   origin-top animate-open-menu text-green-200 ">
                       <div className="relative inline-block pl-4 ">
                         <SiTestinglibrary />
                       </div>
