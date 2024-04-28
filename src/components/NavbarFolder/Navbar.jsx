@@ -6,7 +6,7 @@ import { GiAnchor } from "react-icons/gi";
 import { GiStrongMan } from "react-icons/gi";
 import { BsGithub } from "react-icons/bs";
 import { GrBaby } from "react-icons/gr";
-import { LiaHotdogSolid } from "react-icons/lia";
+ 
 import { BsPersonVcard } from "react-icons/bs";
 import { LiaHourglassHalfSolid } from "react-icons/lia";
 import { SiTestinglibrary } from "react-icons/si";
@@ -168,7 +168,7 @@ const Navbar = () => {
                   </div>
                 </a>
 
-                <a href="#" onClick={hideMobileMenu}>
+                <a href="https://resume-hub.mybabb.com/" onClick={hideMobileMenu}>
                   {" "}
                   <div className="buttonStyles   animate-open-menu origin-top text-green-200 ">
                     <div className="relative inline-block pl-4 ">
