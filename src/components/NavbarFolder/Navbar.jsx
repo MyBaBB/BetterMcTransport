@@ -111,12 +111,12 @@ const Navbar = () => {
                   onClick={hideMobileMenu}
                 >
                   {" "}
-                  <div className="buttonStyles   animate-open-menu origin-top text-green-200 ">
+                  <div className="buttonStyles   animate-open-menu origin-top text-green-200 opacity-35 ">
                     <div className="relative inline-block pl-4 pr-2 ">
                       <GiAnchor />
                     </div>
-                    <span className="menuButtonWords pr-6  text-4xl ">
-                      <u>Basic Demo</u>
+                    <span className="menuButtonWords pr-6  text-3xl ">
+                      Basic Demo 
                     </span>
                   </div>
                 </a>
