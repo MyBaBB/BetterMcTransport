@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import { LiaInfoSolid } from "react-icons/lia";
-import { GiAnchor } from "react-icons/gi";
+import { GiAnchor, GiWoodCabin } from "react-icons/gi";
 import { GiStrongMan } from "react-icons/gi";
 import { BsGithub } from "react-icons/bs";
 import { GrBaby } from "react-icons/gr";
@@ -80,6 +80,33 @@ const Navbar = () => {
                 {/* xxxxxxx the mobile buttons xxxxxxxxx */}
 
                 <a
+                  href="https://mybabb.github.io/About_MyBaBB/"
+                  onClick={hideMobileMenu}
+                >
+                  {" "}
+                  <div className="buttonStyles   animate-open-menu origin-top text-green-200 ">
+                    <div className="relative inline-block pl-4 ">
+                      <GiWoodCabin />
+                    </div>
+                    <span className="menuButtonWords   pr-6 ">Home</span>
+                  </div>
+                </a>
+
+                <a
+                  href="https://mybabb.github.io/About_MyBaBB/"
+                  onClick={hideMobileMenu}
+                >
+                  {" "}
+                  <div className="buttonStyles   animate-open-menu origin-top text-green-200 ">
+                    <div className="relative inline-block pl-4 ">
+                      <LiaInfoSolid />
+                    </div>
+                    <span className="menuButtonWords   pr-6 ">About</span>
+                  </div>
+                </a>
+
+
+                <a
                   href="https://mybabb.github.io/BetterMcTransport/"
                   onClick={hideMobileMenu}
                 >
@@ -91,6 +118,16 @@ const Navbar = () => {
                     <span className="menuButtonWords pr-6  text-4xl ">
                       <u>Basic Demo</u>
                     </span>
+                  </div>
+                </a>
+
+                <a href="https://github.com/MyBaBB" onClick={hideMobileMenu}>
+                  {" "}
+                  <div className="buttonStyles   animate-open-menu origin-top text-green-200 ">
+                    <div className="relative inline-block pl-4 pr-2 ">
+                      <BsGithub />
+                    </div>
+                    <span className="menuButtonWords   pr-6 ">GitHub</span>
                   </div>
                 </a>
 
@@ -121,18 +158,7 @@ const Navbar = () => {
                   </div>
                 </a>
 
-                <a
-                  href="https://mybabb.github.io/About_MyBaBB/"
-                  onClick={hideMobileMenu}
-                >
-                  {" "}
-                  <div className="buttonStyles   animate-open-menu origin-top text-green-200 ">
-                    <div className="relative inline-block pl-4 ">
-                      <LiaInfoSolid />
-                    </div>
-                    <span className="menuButtonWords   pr-6 ">About</span>
-                  </div>
-                </a>
+               
 
                 <a href="https://mybabb.github.io/Franken-Timer/">
                   <div className="buttonStyles   animate-open-menu origin-top text-green-200 ">
@@ -145,15 +171,7 @@ const Navbar = () => {
                   </div>
                 </a>
 
-                <a href="https://github.com/MyBaBB" onClick={hideMobileMenu}>
-                  {" "}
-                  <div className="buttonStyles   animate-open-menu origin-top text-green-200 ">
-                    <div className="relative inline-block pl-4 pr-2 ">
-                      <BsGithub />
-                    </div>
-                    <span className="menuButtonWords   pr-6 ">GitHub</span>
-                  </div>
-                </a>
+             
 
                 <a
                   href="https://mybabb.github.io/100_Bucks_Intro/"
@@ -174,7 +192,7 @@ const Navbar = () => {
                     <div className="relative inline-block pl-4 ">
                       <SiTestinglibrary />
                     </div>
-                    <span className="menuButtonWords   pr-6 ">Kraken</span>
+                    <span className="menuButtonWords   pr-6 ">Zale</span>
                   </div>
                 </a>
               </p>
