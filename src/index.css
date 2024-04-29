@@ -152,10 +152,7 @@
   src: url(../GoogleFonts/ArchivoBlack-Regular.ttf);
 }
 
-@font-face {
-  font-family: "Metal_Mania";
-  src: url(../GoogleFonts/MetalMania-Regular.ttf);
-}
+
 
 @font-face {
   font-family: "Nosifer";
@@ -173,6 +170,6 @@
 }
 
 @font-face {
-  font-family: "Sixtyfour";
+  font-family: "Sixtyfour-Regular-VariableFont";
   src: url(../GoogleFonts/Sixtyfour-Regular-VariableFont_BLED\,SCAN.ttf);
 }

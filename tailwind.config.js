@@ -86,7 +86,7 @@ export default {
 "Rye": ['Rye', 'cursive'], 
 'Vollkorn': ['Vollkorn', 'serif'],
 'Wallpoet': ['Wallpoet', 'cursive'],
-'Sixtyfour': ['Sixtyfour', 'cursive'],
+'Sixtyfour-Regular-VariableFont': ['Sixtyfour-Regular-VariableFont', 'cursive'],
 
 },
 
