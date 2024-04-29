@@ -5,7 +5,7 @@ import Copyright from "./Copyright.jsx";
 import BigPicture from "./BigPictureFolder/BigPicture.jsx";
 
 import AndysCard from "./AndysCardFolder/AndysCard.jsx";
-import AndysDogTag from "./AndysDogTag.jsx";
+import AndysDogTag from "./DogTagFolder/DogTag.jsx";
 import GoButtons from "./GoButtonsFolder/GoButtons.jsx";
 
 import Accordion01Images from "./AccordionFolder/Accordion01Folder/Accordion01Images.jsx";

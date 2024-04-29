@@ -64,7 +64,7 @@ export default {
      fontFamily: {
       'Aclonica': ['Aclonica', 'sans-serif'],
 'ArchivoBlack': ['Archivo Black', 'sans-serif'],
-'BlackOpsOne': ['Black Ops One', 'cursive'],
+'BlackOpsOne-Regular': ['BlackOpsOne-Regular', 'cursive'],
 'Caprasimo': ['Caprasimo', 'cursive'],
 'Creepster': ['Creepster', 'cursive'],
 'DMSerifDisplay': ['DM Serif Display-italic', 'serif'],

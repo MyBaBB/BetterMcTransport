@@ -34,7 +34,7 @@ const AquariumStand = () => {
                 textShadow: "2px 2px 4px rgba(0, 0, 0, 1)",
               }}
             >
-              <span className="Kingthings m-4 whitespace-nowrap p-4 text-[2.2rem] ">
+              <span className="font-Kingthings_Petrock m-4 whitespace-nowrap p-4 text-[2.2rem] ">
                 <span
                   className="rightPointer inline-block
                                  text-varLIGHTBLUEFEATHER"
