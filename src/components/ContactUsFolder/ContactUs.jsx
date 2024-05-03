@@ -22,7 +22,7 @@ const ContactUs = () => {
                 >
               <span className="hubSpinner  inline-block text-gray-300 "><SiHubspot /></span>
               <span 
-                    className=" z-50 font-BlackOpsOne-Regular text-gray-300 hover:text-opacity-35">
+                    className=" z-1 font-BlackOpsOne-Regular text-gray-300 hover:text-opacity-35">
                      &nbsp;&nbsp;Resume Hub&nbsp;&nbsp;
               </span>
               <span className="hubSpinnerReverse inline-block text-gray-300"> <SiHubspot /></span>
