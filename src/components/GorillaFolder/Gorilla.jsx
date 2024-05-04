@@ -3,7 +3,7 @@ import React from "react";
  
 
 import "./Gorilla.css";
-import GorillaBanana from "./GorillaWithBanana100px.png";
+import Gorilla2Banana from "./Gorilla2WithBanana100px.png";
 import BananaTree from "./BananaTree2.png";
 const Gorilla = () => {
   return (
@@ -20,7 +20,7 @@ const Gorilla = () => {
           </p>
           <div className="relative flex   h-[115px] w-[280px]">
             <div className="absolute  bottom-[-1rem]  left-[0]">
-              <img src={GorillaBanana} alt="Gorilla With Banana" />
+              <img src={Gorilla2Banana} alt="Gorilla With Banana" />
             </div>
             <div className="absolute   right-[-2.2rem] top-[-3rem] ">
               <img src={BananaTree} alt="Banana Tree" />
