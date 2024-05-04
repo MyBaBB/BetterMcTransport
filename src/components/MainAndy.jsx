@@ -11,7 +11,7 @@ import GoButtons from "./GoButtonsFolder/GoButtons.jsx";
 import Accordion01Images from "./AccordionFolder/Accordion01Folder/Accordion01Images.jsx";
 import Accordion03Reviews from "./AccordionFolder/Accordion03Folder/Accordion03Reviews.jsx";
 import AquariumDataTip from "./AquariumFolder/AquariumDataTip.jsx";
-import Gorilla from "../Gorilla.jsx";
+import Gorilla from "../components/GorillaFolder/Gorilla.jsx";
 import ContactButton from "./ContactUsFolder/ContactUs.jsx";
 // import ScubaMan from "./ScubaManFolder/ScubaMan.jsx";
 // import ScubaMask from "./ScubaManFolder/ScubaMask.jsx";
@@ -56,10 +56,12 @@ const AndysMain = () => {
 
             <AndysDogTag />
             <AquariumDataTip />
-            <Gorilla />
+           
             <Copyright />
           </div>
+         
         </div>
+       <div  > <Gorilla /></div>
       </>
       {/* <ScubaMan /> */}
     </div>
