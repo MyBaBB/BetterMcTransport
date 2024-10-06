@@ -21,7 +21,7 @@ const ScubaMan = () => {
               <div className="scubaManSecond rounded-xl border-[1px] border-varLIGHTBLUEFEATHER p-2 ">
                 <div className="scubaManFirst rotate-[240deg] border-transparent  ">
                   <MdOutlineScubaDiving
-                    size={20}
+                    size={19}
                     className="scubaMan  text-blue-200  "
                   />
                 </div>
