@@ -160,7 +160,7 @@ const Navbar = () => {
 
                
 
-                <a href="https://mybabb.github.io/Franken-Timer/">
+                <a href="https://franken-timer.onrender.com/">
                   <div className="buttonStyles   animate-open-menu origin-top text-green-200 ">
                     <div className="relative inline-block pl-4 pr-2">
                       <LiaHourglassHalfSolid />
