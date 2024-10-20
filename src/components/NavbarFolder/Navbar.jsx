@@ -174,7 +174,7 @@ const Navbar = () => {
              
 
                 <a
-                  href="https://mybabb.github.io/100_Bucks_Intro/"
+                  href=" https://custom.email.mybabb.com/"
                   onClick={hideMobileMenu}
                 >
                   {" "}
