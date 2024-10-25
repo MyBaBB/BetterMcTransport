@@ -131,17 +131,7 @@ const Navbar = () => {
                   </div>
                 </a>
 
-                <a href="https://mybabb.com" onClick={hideMobileMenu}>
-                  {" "}
-                  <div className="buttonStyles   animate-open-menu origin-top text-green-200 ">
-                    <div className="relative inline-block pl-4  ">
-                      <BsPersonVcard />
-                    </div>
-                    <span className="menuButtonWords  ml-[2rem] pr-8 ">
-                      MyBaBB.com
-                    </span>
-                  </div>
-                </a>
+                
 
                 <a
                   href="https://my-introduction.onrender.com"
@@ -186,6 +176,19 @@ const Navbar = () => {
                   </div>
                 </a>
 
+
+                <a href="https://mybabb.com" onClick={hideMobileMenu}>
+                  {" "}
+                  <div className="buttonStyles   animate-open-menu origin-top text-green-200 ">
+                    <div className="relative inline-block pl-4  ">
+                      <BsPersonVcard />
+                    </div>
+                    <span className="menuButtonWords  ml-[2rem] pr-8 ">
+                      Web Developer
+                    </span>
+                  </div>
+                </a>
+                
                 <a href="https://resume-hub.mybabb.com/" onClick={hideMobileMenu}>
                   {" "}
                   <div className="buttonStyles   animate-open-menu origin-top text-green-200 ">
