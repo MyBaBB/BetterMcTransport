@@ -9,7 +9,7 @@ const ContactUs = () => {
         href="https://resume-hub.mybabb.com/"
         style={{ textShadow: "2px 2px 3px #1c0303" }}
       >
-        <div className="mt-[-4.8rem] ">
+        <div className="mt-[-3.8rem] ">
           <div
             className="text-right text-xl font-bold italic text-slate-500 sm:text-2xl dark:text-slate-400"
             style={{ fontSize: "24px", textShadow: "1px 1px black" }}
