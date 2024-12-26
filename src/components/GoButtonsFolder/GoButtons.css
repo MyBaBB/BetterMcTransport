@@ -11,6 +11,11 @@
   padding: 9px;
   font-family:BlackOpsOne-Regular;
 }
+.GoButtons:hover {
+  background: linear-gradient(to bottom, #4b5320, #725432);
+  scale: 1.1;
+  color: limegreen;
+}
 .WheresAndy {
   position: relative;
   display: flex;
@@ -23,4 +28,9 @@
   background: linear-gradient(to bottom, #4b5320, black);
   padding: 9px;
   font-family:BlackOpsOne-Regular;
+}
+.WheresAndy:hover {
+  background: linear-gradient(to bottom, #4b5320, #725432);
+  scale: 1.1;
+  color: limegreen;
 }

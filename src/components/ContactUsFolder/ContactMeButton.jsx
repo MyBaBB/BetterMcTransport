@@ -6,11 +6,11 @@ const ContactMeButton = () => {
        <a href="https://contact.mybabb.com">
               <button
                
-                className="ContactMeButton m-auto hidden xs:flex
-
-                  w-fit  rounded-2xl border-[1px] border-black p-2 text-3xl  bg-[#419aff] hover:scale-105 shadow-md "
+                className="ContactMeButton font-BlackOpsOne-Regular m-auto hidden sm:flex
+ 
+                  w-fit   p-2 text-3xl  "
               >
-                <span className="ContactMeButtonText font-Itim-Regular text-blue-100 hover:text-green-400  ">
+                <span className="GoButtons font-Itim-Regular text-blue-100 hover:text-green-400  ">
                   Contact Me
                 </span>
               </button>

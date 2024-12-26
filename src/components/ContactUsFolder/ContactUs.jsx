@@ -16,16 +16,16 @@ const ContactUs = () => {
           ></div>
           <span id="contactus1"></span>
 
-          <div className="m-auto mt-14  flex content-center justify-center">
+          <div className=" m-auto mt-14  flex content-center justify-center">
             <div
-              className="WheresAndy sm:text-3xl whitespace-nowrap "       
+              className="WheresAndy sm:text-3xl whitespace-nowrap  "       
                 >
-              <span className="hubSpinner  inline-block text-gray-300 "><SiHubspot /></span>
+              <span className="hubSpinner  inline-block text-[aliceblue]   "><SiHubspot /></span>
               <span 
-                    className=" z-1 font-BlackOpsOne-Regular text-gray-300 hover:text-opacity-35">
+                    className="z-1 font-BlackOpsOne-Regular text-amber-100 hover:text-[limegreen] ">
                      &nbsp;&nbsp;Resume Hub&nbsp;&nbsp;
               </span>
-              <span className="hubSpinnerReverse inline-block text-gray-300"> <SiHubspot /></span>
+              <span className="hubSpinnerReverse inline-block text-[aliceblue]  "> <SiHubspot /></span>
             </div>
           </div>
         </div>
