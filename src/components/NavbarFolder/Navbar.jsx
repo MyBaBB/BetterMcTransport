@@ -35,7 +35,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="navWrapper z-30">
+    <div className="navWrapper z-30  md:hidden">
       {" "}
       {/* to adjust hamburger  */}
       <nav className="">
@@ -43,21 +43,21 @@ const Navbar = () => {
           <div
             className={burger_class}
             style={{
-              backgroundColor: "aliceblue",
+              backgroundColor: "red",
               boxShadow: "inset 0 0 5px rgba(0, 0, 0, .3)",
             }}
           ></div>
           <div
             className={burger_class}
             style={{
-              backgroundColor: "aliceblue",
+              backgroundColor: "white",
               boxShadow: "inset 0 0 5px rgba(0, 0, 0, .3)",
             }}
           ></div>
           <div
             className={burger_class}
             style={{
-              backgroundColor: "aliceblue",
+              backgroundColor: "blue",
               boxShadow: "inset 0 0 5px rgba(0, 0, 0, .3)",
             }}
           ></div>
