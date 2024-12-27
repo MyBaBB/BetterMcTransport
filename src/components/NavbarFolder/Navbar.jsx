@@ -6,7 +6,7 @@ import { GiAnchor, GiWoodCabin } from "react-icons/gi";
 import { GiStrongMan } from "react-icons/gi";
 import { BsGithub } from "react-icons/bs";
 import { GrBaby } from "react-icons/gr";
- 
+
 import { BsPersonVcard } from "react-icons/bs";
 import { LiaHourglassHalfSolid } from "react-icons/lia";
 import { SiTestinglibrary } from "react-icons/si";
@@ -79,10 +79,7 @@ const Navbar = () => {
               >
                 {/* xxxxxxx the mobile buttons xxxxxxxxx */}
 
-                <a
-                  href="https://mybabb.com"
-                  onClick={hideMobileMenu}
-                >
+                <a href="https://mybabb.com" onClick={hideMobileMenu}>
                   {" "}
                   <div className="buttonStyles   animate-open-menu origin-top text-green-200 ">
                     <div className="relative inline-block pl-4 ">
@@ -105,7 +102,6 @@ const Navbar = () => {
                   </div>
                 </a>
 
-
                 <a
                   href="https://mybabb.github.io/BetterMcTransport/"
                   onClick={hideMobileMenu}
@@ -116,7 +112,7 @@ const Navbar = () => {
                       <GiAnchor />
                     </div>
                     <span className="menuButtonWords pr-6  text-3xl ">
-                      Basic Demo 
+                      Basic Demo
                     </span>
                   </div>
                 </a>
@@ -130,8 +126,6 @@ const Navbar = () => {
                     <span className="menuButtonWords   pr-6 ">GitHub</span>
                   </div>
                 </a>
-
-                
 
                 <a
                   href="https://my-introduction.onrender.com"
@@ -148,8 +142,6 @@ const Navbar = () => {
                   </div>
                 </a>
 
-               
-
                 <a href="https://franken-timer.onrender.com/">
                   <div className="buttonStyles   animate-open-menu origin-top text-green-200 ">
                     <div className="relative inline-block pl-4 pr-2">
@@ -160,8 +152,6 @@ const Navbar = () => {
                     </span>
                   </div>
                 </a>
-
-             
 
                 <a
                   href=" https://custom.email.mybabb.com/"
@@ -176,7 +166,6 @@ const Navbar = () => {
                   </div>
                 </a>
 
-
                 <a href="https://mybabb.com" onClick={hideMobileMenu}>
                   {" "}
                   <div className="buttonStyles   animate-open-menu origin-top text-green-200 ">
@@ -188,8 +177,11 @@ const Navbar = () => {
                     </span>
                   </div>
                 </a>
-                
-                <a href="https://resume-hub.mybabb.com/" onClick={hideMobileMenu}>
+
+                <a
+                  href="https://resume-hub.mybabb.com/"
+                  onClick={hideMobileMenu}
+                >
                   {" "}
                   <div className="buttonStyles   animate-open-menu origin-top text-green-200 ">
                     <div className="relative inline-block pl-4 ">

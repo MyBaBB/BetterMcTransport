@@ -64,8 +64,6 @@
   z-index: 0;
 }
 
-
-
 .tagHole {
   position: absolute;
   border: 0.25px solid #3a3f18;
@@ -89,13 +87,6 @@
 .FaceBook {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
 }
-
-
-
-
-
-
-
 
 @font-face {
   font-family: "Creepster";
@@ -151,8 +142,6 @@
   font-family: "Archivo_Black";
   src: url(../GoogleFonts/ArchivoBlack-Regular.ttf);
 }
-
-
 
 @font-face {
   font-family: "Nosifer";
