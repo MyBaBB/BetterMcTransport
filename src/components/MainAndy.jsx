@@ -6,33 +6,33 @@ import BigPicture from "./BigPictureFolder/BigPicture.jsx";
 
 import AndysCard from "./AndysCardFolder/AndysCard.jsx";
 import AndysDogTag from "./DogTagFolder/DogTag.jsx";
-import GoButtons from "./GoButtonsFolder/GoButtons.jsx";
+import GoButtons from "./MediaButtonsFolder/MediaButtons.jsx";
 
 import Accordion01Images from "./AccordionFolder/Accordion01Folder/Accordion01Images.jsx";
 import Accordion03Reviews from "./AccordionFolder/Accordion03Folder/Accordion03Reviews.jsx";
 import AquariumDataTip from "./AquariumFolder/AquariumDataTip.jsx";
 import Gorilla from "../components/GorillaFolder/Gorilla.jsx";
-import ContactButton from "./ContactUsFolder/ContactUs.jsx";
+import AllButtons from "./AllButtons.jsx";
 // import ScubaMan from "./ScubaManFolder/ScubaMan.jsx";
 // import ScubaMask from "./ScubaManFolder/ScubaMask.jsx";
 const AndysMain = () => {
   return (
     <div>
       <>
-        {/*above is the HeaderWrapper */}
-        {/* <ScubaMask /> */}
+       
         <div
-          className="bodyWrapper relative flex min-w-full items-center justify-center
+          className="bodyWrapper relative flex-row min-w-full items-center justify-center
             p-2 "
-        >  
-        
+        >
+              < AllButtons />
           <div
             className="relative m-auto  flex w-full 
           flex-col items-center justify-center  p-1 "
-          > <ContactButton />
-            <GoButtons />
+          >
+            {" "}
+        
+            
             <AndysCard />
-
             <div
               className="Accordion2Wrapper relative mt-[.5rem] block   px-[10px]
         text-green-50   sm:px-[.5rem] md:mt-[1rem]"
@@ -49,19 +49,19 @@ const AndysMain = () => {
                 ></p>
               </div>
             </div>
-
+           
             <BigPicture />
             <Accordion01Images />
             <Accordion03Reviews />
-
             <AndysDogTag />
             <AquariumDataTip />
-           
             <Copyright />
           </div>
-         
         </div>
-       <div  > <Gorilla /></div>
+        <div>
+          {" "}
+          <Gorilla />
+        </div>
       </>
       {/* <ScubaMan /> */}
     </div>

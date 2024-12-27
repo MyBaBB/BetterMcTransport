@@ -52,7 +52,6 @@
   border-radius: 50%;
   left: 4rem;
   top: 1rem;
- 
 }
 
 .swampBuggyWrapper {
@@ -61,8 +60,6 @@
   background-color: transparent;
   border-radius: 50%;
   box-shadow: inset 0px 0px 12px rgba(0, 0, 0, 0.8);
- 
-
 }
 .swampBuggyWrapper:hover {
   background-image: linear-gradient(to top right, black, #c7b090, #4b5320);
