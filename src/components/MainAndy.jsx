@@ -7,11 +7,11 @@ import BigPicture from "./BigPictureFolder/BigPicture.jsx";
 import AndysCard from "./AndysCardFolder/AndysCard.jsx";
 import AndysDogTag from "./DogTagFolder/DogTag.jsx";
 import GoButtons from "./MediaButtonsFolder/MediaButtons.jsx";
-
+import  RangerCamo from '../assets/Img/rangerCamo.jpg';
 import Accordion01Images from "./AccordionFolder/Accordion01Folder/Accordion01Images.jsx";
 import Accordion03Reviews from "./AccordionFolder/Accordion03Folder/Accordion03Reviews.jsx";
 import AquariumDataTip from "./AquariumFolder/AquariumDataTip.jsx";
-import Gorilla from "../components/GorillaFolder/Gorilla.jsx";
+// import Gorilla from "../components/GorillaFolder/Gorilla.jsx";
 import AllButtons from "./AllButtons.jsx";
 // import ScubaMan from "./ScubaManFolder/ScubaMan.jsx";
 // import ScubaMask from "./ScubaManFolder/ScubaMask.jsx";
@@ -29,7 +29,7 @@ const AndysMain = () => {
             className="relative m-auto  flex w-full 
           flex-col items-center justify-center  p-1 "
           >
-            {" "}
+             <img src={RangerCamo} alt="" className="absolute opacity-[.2] top-0 left-0 h-full -z-1 mt-1 outline-2 border-green-900 " />
         
             
             <AndysCard />
@@ -56,11 +56,12 @@ const AndysMain = () => {
             <AndysDogTag />
             <AquariumDataTip />
             <Copyright />
+            {/* <Gorilla /> */}
           </div>
         </div>
         <div>
           {" "}
-          <Gorilla />
+          
         </div>
       </>
       {/* <ScubaMan /> */}
