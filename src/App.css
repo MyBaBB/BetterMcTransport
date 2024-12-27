@@ -14,15 +14,16 @@
   color: #888;
 }
 .allButtonsWrapper {
-  background: linear-gradient(120deg, #4b5320 0%, #3a3f18 50%, #725432 100%);
+  background: black;
   background-size: 400% 400%;
   animation: gradient 10s ease infinite;
   background-size: 400% 400%;
   animation: gradient 10s ease infinite;
-  outline: 8px solid #4b5320;
+  outline: 8px solid black;
   padding-bottom: 10px;
- 
+  z-index: 55;
 }
+/* }
 @keyframes gradient {
   0% {
     background-position: 0% 50%;
@@ -34,4 +35,4 @@
     background-position: 0% 50%;
   }
  
-}
+} */
