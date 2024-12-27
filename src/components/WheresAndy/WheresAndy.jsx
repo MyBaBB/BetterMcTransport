@@ -1,6 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import "./WheresAndy.css";
+import SamplesButton from "./SamplesButton";
 
 const WheresAndy = () => {
   return (
@@ -23,6 +24,10 @@ const WheresAndy = () => {
             </p>
           </div>
         </a>
+
+
+<SamplesButton />
+
 
         <button onClick={() => (window.location.href = "tel:559-555-5555")}
           aria-label="Call Andy">
