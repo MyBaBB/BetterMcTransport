@@ -5,7 +5,7 @@ import ContactUs from './ContactUsFolder/ContactUs'
 import '../../src/App.css'
 const AllButtons = () => {
   return (
-    <div className='allButtonsWrapper'>
+    <div className='allButtonsWrapper mb-2 '>
 
       < ContactUs />
       < GoButtons /> 

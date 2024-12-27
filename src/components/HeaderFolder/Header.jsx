@@ -3,7 +3,7 @@ import React from "react";
 import SwampBuggy from "./SwampBuggy.webp";
 import OctoArmy from "./OctoArmy.jpg";
 import "../NavbarFolder/Navbar.css";
-
+import DogTag from "../DogTagFolder/DogTag";
 import "./Header.css";
 import Navbar from "../NavbarFolder/Navbar";
 const Header = () => {
@@ -29,10 +29,9 @@ const Header = () => {
           </div>
         </a>
         <p
-          className=" headerCenterTextBox text-[12px]sm:text-[16px]   w-fit scale-[70%] 
-         text-amber-100    xxs:scale-[80%] xs:scale-[100%] md:text-[20px] lg:text-[25px] xl:text-[30px]"
+          className="m-auto w-fit scale-[70%] "
         >
-          <h1>Andy&apos;s 4x4 ATV-Transport</h1>
+          <DogTag />
         </p>
         <a href="https://resume-hub.mybabb.com/">
           <div className="outerOctoArmyWrapper hidden md:block">

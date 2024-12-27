@@ -5,10 +5,7 @@ const DogTag = () => {
   return (
     <div>
       <div
-        className="dogTagPhoneNumberWrapper md:mt-[0 rem] relative z-10
-     mx-auto  mb-4 mt-[1.25rem] w-fit content-center
-      justify-center 
-       "
+        className="dogTagPhoneNumberWrapper z-10    "
       >
         <h2 className="AndysName mb-[-.45rem] whitespace-nowrap">
           Andy B. Bones
