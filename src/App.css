@@ -13,3 +13,25 @@
 .read-the-docs {
   color: #888;
 }
+.allButtonsWrapper {
+  background: linear-gradient(120deg, #4b5320 0%, #3a3f18 50%, #725432 100%);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+  outline: 8px solid #4b5320;
+  padding-bottom: 10px;
+ 
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+ 
+}

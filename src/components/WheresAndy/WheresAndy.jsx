@@ -10,7 +10,8 @@ const WheresAndy = () => {
          "
     >
       <div className="relative flex w-full justify-around text-amber-100   ">
-        <a href="https://support.google.com/maps/answer/7326816?hl=en&co=GENIE.Platform%3DAndroid">
+        <a href="https://support.google.com/maps/answer/7326816?hl=en&co=GENIE.Platform%3DAndroid"
+        aria-label="Find Andy on Google Maps">
           <div className=" whitespace-nowrap">
             <p className="WheresAndy ">
               <span className="Radar inline-block -scale-x-100 transform">
@@ -23,7 +24,8 @@ const WheresAndy = () => {
           </div>
         </a>
 
-        <button onClick={() => (window.location.href = "tel:559-555-5555")}>
+        <button onClick={() => (window.location.href = "tel:559-555-5555")}
+          aria-label="Call Andy">
           <div className=" whitespace-nowrap ">
             <p
               className="WheresAndy
