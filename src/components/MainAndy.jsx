@@ -22,14 +22,14 @@ const AndysMain = () => {
        
         <div
           className="bodyWrapper relative flex-row min-w-full items-center justify-center
-            p-2 "
+            p-2 border-2 border-green-200 "
         >
               < AllButtons />
           <div
             className="relative m-auto  flex w-full 
           flex-col items-center justify-center  p-1 "
           >
-             <img src={RangerCamo} alt="" className="absolute opacity-[.2] top-0 left-0 h-full -z-1 mt-1 outline-2 border-green-900 " />
+             <img src={RangerCamo} alt="" className="fixed opacity-[.2] top-0 left-0 right-0 -z-1 mt-1 outline-2 border-green-900 " />
         
             
             <AndysCard />
