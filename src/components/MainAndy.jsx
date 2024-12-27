@@ -22,7 +22,7 @@ const AndysMain = () => {
        
         <div
           className="bodyWrapper relative flex-row min-w-full items-center justify-center
-            p-2"
+          "
         >
               < AllButtons />
           <div
