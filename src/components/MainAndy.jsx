@@ -29,7 +29,7 @@ const AndysMain = () => {
             className="relative m-auto  flex w-full 
           flex-col items-center justify-center  p-1 "
           >
-            <img src={RangerCamo} alt="" className="absolute w-screen h-full object-cover opacity-20"/> 
+            <img src={RangerCamo} alt="Army Ranger Camoflauge " className="absolute w-screen h-full object-cover opacity-20"/> 
         
             
             <AndysCard />

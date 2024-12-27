@@ -28,11 +28,11 @@ const Header = () => {
             </div>
           </div>
         </a>
-        <p
-          className="m-auto w-fit scale-[70%] "
+        <div
+          className="m-auto w-fit scale-[70%] md:scale-100 md:mb-2 "
         >
-          <DogTag />
-        </p>
+          < DogTag />
+        </div>
         <a href="https://resume-hub.mybabb.com/">
           <div className="outerOctoArmyWrapper hidden md:block">
             <div className="dataToolTip82" data-tool-tip="To Kraken">
