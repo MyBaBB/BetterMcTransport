@@ -3,10 +3,7 @@ import React from "react";
 import Copyright from "./Copyright.jsx";
 // import UpperLeftIcon from "../assets/Img/upperLeftIcon.webp";
 import BigPicture from "./BigPictureFolder/BigPicture.jsx";
-
 import AndysCard from "./AndysCardFolder/AndysCard.jsx";
-
-
 import  RangerCamo from '../assets/Img/rangerCamo.jpg';
 import Accordion01Images from "./AccordionFolder/Accordion01Folder/Accordion01Images.jsx";
 import Accordion03Reviews from "./AccordionFolder/Accordion03Folder/Accordion03Reviews.jsx";
