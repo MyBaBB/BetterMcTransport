@@ -154,7 +154,7 @@ const Navbar = () => {
                 </a>
 
                 <a
-                  href=" https://custom.email.mybabb.com/"
+                  href=" https://fastCat.mybabb.com/"
                   onClick={hideMobileMenu}
                 >
                   {" "}
@@ -179,7 +179,7 @@ const Navbar = () => {
                 </a>
 
                 <a
-                  href="https://resume-hub.mybabb.com/"
+                  href="https://octo-space.mybabb.com/"
                   onClick={hideMobileMenu}
                 >
                   {" "}
