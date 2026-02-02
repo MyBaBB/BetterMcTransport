@@ -89,10 +89,7 @@ const Navbar = () => {
                   </div>
                 </a>
 
-                <a
-                  href="https://mybabb.github.io/About_MyBaBB/"
-                  onClick={hideMobileMenu}
-                >
+                <a href="https://about.us.mybabb.com" onClick={hideMobileMenu}>
                   {" "}
                   <div className="buttonStyles   animate-open-menu origin-top text-green-200 ">
                     <div className="relative inline-block pl-4 ">
@@ -153,10 +150,7 @@ const Navbar = () => {
                   </div>
                 </a>
 
-                <a
-                  href=" https://custom.email.mybabb.com/"
-                  onClick={hideMobileMenu}
-                >
+                <a href=" https://fastCat.mybabb.com/" onClick={hideMobileMenu}>
                   {" "}
                   <div className="buttonStyles   animate-open-menu origin-top text-green-200 ">
                     <div className="relative inline-block pl-4 ">
@@ -179,7 +173,7 @@ const Navbar = () => {
                 </a>
 
                 <a
-                  href="https://resume-hub.mybabb.com/"
+                  href="https://octo-space.mybabb.com/"
                   onClick={hideMobileMenu}
                 >
                   {" "}

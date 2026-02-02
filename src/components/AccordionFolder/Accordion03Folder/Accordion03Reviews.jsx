@@ -30,16 +30,10 @@ const Accordion03 = () => {
           pb-[6px] pt-[4px]"
               >
                 <div
-                  className="absolute  left-[12px] top-[3px] h-12 w-12 rounded-full  bg-gradient-to-b  from-amber-200 
-             to-varDarkBrown pt-[2px] text-4xl  shadow-sm  shadow-black md:top-[4px]   "
+                  className="roundyButton3 absolute  left-[12px] top-[3px] h-12 w-12 rounded-full 
+                  pt-[2px] text-4xl  shadow-sm  shadow-black md:top-[4px]   "
                   style={{ textShadow: "0px -1px 2px black" }}
-                >
-                  {" "}
-                  <span
-                    className={`triangle ${isOpen ? "rotate-180" : ""}`}
-                    style={{ marginTop: isOpen ? "7px" : "" }}
-                  ></span>
-                </div>
+                ></div>
 
                 <button
                   className="text-base  font-extrabold text-amber-100  sm:text-2xl"

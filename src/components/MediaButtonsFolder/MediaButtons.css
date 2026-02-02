@@ -1,16 +1,15 @@
 .mediaButtons {
   position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid #725432;
-    border-radius: 9px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
-    background: linear-gradient(to bottom, #4b5320, black);
-    padding: 14px;
-    font-family: BlackOpsOne-Regular;
-    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #725432;
+  border-radius: 9px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+  background: linear-gradient(to bottom, #4b5320, black);
+  padding: 14px;
+  font-family: BlackOpsOne-Regular;
 }
 .mediaButtons:hover {
   background: linear-gradient(to bottom, #4b5320, #725432);
@@ -19,18 +18,15 @@
 }
 .twoMediaButtons {
   position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 12rem;
-    border: 2px solid #725432;
-    border-radius: 9px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
-    background: linear-gradient(to bottom, #4b5320, black);
-    padding: 9px;
-    font-family: BlackOpsOne-Regular;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12rem;
+  border: 2px solid #725432;
+  border-radius: 9px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+  background: linear-gradient(to bottom, #4b5320, black);
+  padding: 9px;
+  font-family: BlackOpsOne-Regular;
 }
-
-

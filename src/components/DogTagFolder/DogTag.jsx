@@ -4,9 +4,7 @@ import "./DogTag.css";
 const DogTag = () => {
   return (
     <div>
-      <div
-        className="dogTagPhoneNumberWrapper z-10    "
-      >
+      <div className="dogTagPhoneNumberWrapper z-10    ">
         <h2 className="AndysName mb-[-.45rem] whitespace-nowrap">
           Andy B. Bones
         </h2>

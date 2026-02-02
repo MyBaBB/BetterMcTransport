@@ -28,12 +28,10 @@ const Header = () => {
             </div>
           </div>
         </a>
-        <div
-          className="m-auto w-fit scale-[70%] md:scale-100 md:mb-2 "
-        >
-          < DogTag />
+        <div className="m-auto w-fit scale-[70%] md:mb-2 md:scale-100 ">
+          <DogTag />
         </div>
-        <a href="https://resume-hub.mybabb.com/">
+        <a href="https://octo-space.mybabb.com/">
           <div className="outerOctoArmyWrapper hidden md:block">
             <div className="dataToolTip82" data-tool-tip="To Kraken">
               <div className="octoArmyWrapper ">
