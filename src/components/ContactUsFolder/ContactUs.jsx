@@ -9,14 +9,14 @@ import "./ContactUs.css";
 import ContactMeButton from "../ContactUsFolder/ContactMeButton";
 const ContactUs = () => {
   return (
-    <div className="relative flex  m-auto top-[12rem] pb-4   " >
-       <div className="mt-[-3.8rem] ">
-          <div className=" m-auto mt-14 flex content-center justify-evenly w-screen">
-          < HomeButton />
-          < ResumeHub />
-          < ContactMeButton />
-          </div>
+    <div className="relative top-[12rem]  m-auto flex pb-4   ">
+      <div className="mt-[-3.8rem] ">
+        <div className=" m-auto mt-14 flex w-screen content-center justify-evenly">
+          <HomeButton />
+          <ResumeHub />
+          <ContactMeButton />
         </div>
+      </div>
     </div>
   );
 };

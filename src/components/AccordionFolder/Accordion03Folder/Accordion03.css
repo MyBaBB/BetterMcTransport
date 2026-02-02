@@ -11,36 +11,15 @@
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
   z-index: 0;
 }
-.triangle {
-  position: relative;
-  display: flex;
 
-  background-color: #41301b;
-  left: 6.9px;
-  top: 4.5px;
-  width: 16px;
-  height: 9px;
-  border-top-left-radius: 2px;
-  border-top-right-radius: 2px;
-  border-top: 0.7px double #91785d;
-
-  z-index: 2;
+.roundyButton3 {
+  background: linear-gradient(to bottom, #ffecb3, #5c4033);
 }
 
-.triangle::before {
-  content: "";
-  position: absolute;
-  bottom: -5.9px;
-  left: calc(50% - 5.5px);
-  width: 11px;
-  height: 11px;
-  background-color: #41301b;
-  transform: rotate(45deg);
-  z-index: 1;
-  box-shadow: 1px 1px 1px 1px #41301b;
-  border-right: 1.5px solid #91785d;
-  border-bottom: 1.5px solid #91785d;
+.roundyButton3:hover {
+  background-color: aqua;
 }
+
 .ReviewsPersonHorizontalRule {
   border: 2px solid #725432;
   width: 70%;

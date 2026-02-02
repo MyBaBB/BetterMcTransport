@@ -4,7 +4,7 @@ import Copyright from "./Copyright.jsx";
 // import UpperLeftIcon from "../assets/Img/upperLeftIcon.webp";
 import BigPicture from "./BigPictureFolder/BigPicture.jsx";
 import AndysCard from "./AndysCardFolder/AndysCard.jsx";
-import  RangerCamo from '../assets/Img/rangerCamo.jpg';
+import RangerCamo from "../assets/Img/rangerCamo.jpg";
 import Accordion01Images from "./AccordionFolder/Accordion01Folder/Accordion01Images.jsx";
 import Accordion03Reviews from "./AccordionFolder/Accordion03Folder/Accordion03Reviews.jsx";
 
@@ -16,19 +16,21 @@ const AndysMain = () => {
   return (
     <div>
       <>
-       
         <div
-          className="bodyWrapper relative flex-row min-w-full items-center justify-center
+          className="bodyWrapper relative min-w-full flex-row items-center justify-center 
           "
         >
-              < AllButtons />
+          <AllButtons />
           <div
             className="relative m-auto  flex w-full 
           flex-col items-center justify-center  p-1 "
           >
-            <img src={RangerCamo} alt="Army Ranger Camoflauge " className="absolute w-screen h-full object-cover opacity-20"/> 
-        
-            
+            <img
+              src={RangerCamo}
+              alt="Army Ranger Camoflauge "
+              className="absolute h-full w-screen object-cover opacity-20"
+            />
+
             <AndysCard />
             <div
               className="Accordion2Wrapper relative mt-[.5rem] block   px-[10px]
@@ -46,20 +48,16 @@ const AndysMain = () => {
                 ></p>
               </div>
             </div>
-           
+
             <BigPicture />
             <Accordion01Images />
             <Accordion03Reviews />
-         
-         
+
             <Copyright />
             {/* <Gorilla /> */}
           </div>
         </div>
-        <div>
-          {" "}
-          
-        </div>
+        <div> </div>
       </>
       {/* <ScubaMan /> */}
     </div>
