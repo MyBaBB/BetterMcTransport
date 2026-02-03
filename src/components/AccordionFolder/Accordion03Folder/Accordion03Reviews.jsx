@@ -39,7 +39,7 @@ const Accordion03 = () => {
                   className="text-base  font-extrabold text-amber-100  sm:text-2xl"
                   style={{ textShadow: "1px 1px 2px black" }}
                 >
-                  <p className="reviews p-[.4rem] text-[20px]">Reviews</p>
+                  <p className="reviews p-[.5rem] text-[20px]">Reviews</p>
                 </button>
               </div>
 
