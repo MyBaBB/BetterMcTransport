@@ -27,7 +27,7 @@ const AndysMain = () => {
           >
             <img
               src={RangerCamo}
-              alt="Army Ranger Camoflauge "
+              alt="Army Ranger Camouflage "
               className="absolute h-full w-screen object-cover opacity-20"
             />
 
